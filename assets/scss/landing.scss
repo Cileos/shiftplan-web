@@ -115,20 +115,24 @@ header.master {
     &:first-child {
       float:left;
     }
+  }
 
-    &.social {
-      float:right;
-      margin:5px;
+  .social {
+    float:right;
+    margin:5px;
 
-      li {
-        margin:0;
-      }
-
-      a {
-        cursor:pointer;
-        display:block;
-      }
+    li {
+      margin:0;
     }
+
+    a {
+      cursor:pointer;
+      display:block;
+    }
+
+    .facebook:hover { color:#3B5998; }
+    .twitter:hover { color:#0084B4; }
+    .rss:hover { color:#f60; }
   }
 
   li {
