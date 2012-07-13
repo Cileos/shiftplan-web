@@ -1,11 +1,16 @@
 @import 'bourbon/bourbon';
 @import 'settings';
 
+* {
+  text-rendering: optimizeLegibility;
+}
+
 html, body {
   font-family:"proxima-nova",Helvetica,Arial,sans-serif;
   font-size:$base-font-size;
   color:$dark-grey;
   background:$light-grey;
+
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -13,7 +18,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 a {
-  @include transition(color 1s ease);
+  @include transition(all 1s);
 
   color:$blue;
   text-decoration:none;
@@ -23,8 +28,13 @@ a {
   }
 }
 
+ul {
+  padding:0;
+}
+
 .button {
-  @include border-radius(5px);
+  @include border-radius(.5em);
+  @include transition(all 1s);
 
   padding:.5em 1em;
   color:#fff;
@@ -39,6 +49,14 @@ a {
 
 .button-black {
   background:#000;
+}
+
+.button-green {
+  background:$green;
+
+  &:hover {
+    background:$green;
+  }
 }
 
 .wrap {
