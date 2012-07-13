@@ -36,11 +36,11 @@ header.master {
     }
 
     a {
-      opacity:0.8;
+      opacity:$inactive-opacity;
       color:$light-grey;
 
       &:hover {
-        opacity:1.0;
+        opacity:$active-opacity;
       }
     }
   }
@@ -97,10 +97,10 @@ header.master {
   a {
     @include transition(opacity 1s ease);
 
-    opacity:0.8;
+    opacity:$inactive-opacity;
 
     &:hover {
-      opacity:1.0;
+      opacity:$active-opacity;
     }
   } 
 }
