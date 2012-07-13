@@ -118,6 +118,16 @@ header.master {
 
     &.social {
       float:right;
+      margin:5px;
+
+      li {
+        margin:0;
+      }
+
+      a {
+        cursor:pointer;
+        display:block;
+      }
     }
   }
 
