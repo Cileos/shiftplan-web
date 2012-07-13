@@ -70,6 +70,8 @@ header.master {
 }
 
 .screenshot {
+  @include box-shadow(0 5px 15px rgba(0,0,0,.1));
+
   width:810px;
   background:url(../images/browser.png) top center no-repeat;
   padding:25px 0 0;
@@ -79,7 +81,7 @@ header.master {
   nav {
     position:absolute;
     top:50%;
-    margin:-12px 0 0 110px;
+    margin:-12px 0 0 150px;
     font-size:modular-scale($base-font-size, 1, $ms-ratio);
   }
 
@@ -105,7 +107,7 @@ header.master {
 
 [role=footer] {
   width:810px;
-  padding-top:80px;
+  padding-top:90px;
 
   ul {
     padding:0 20px;
@@ -117,15 +119,15 @@ header.master {
     &.social {
       float:right;
     }
+  }
 
-    li {
-      display:inline;
-      float:left;
-      margin-right:20px;
+  li {
+    display:inline;
+    float:left;
+    margin-right:20px;
 
-      &:last-child {
-        margin:0;
-      }
+    &:last-child {
+      margin:0;
     }
   }
 
@@ -136,6 +138,4 @@ header.master {
       color:#000;
     }
   }
-
-
 }
