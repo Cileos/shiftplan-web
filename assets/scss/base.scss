@@ -1,0 +1,47 @@
+@import 'bourbon/bourbon';
+@import 'settings';
+
+html, body {
+  font-family:"proxima-nova",Helvetica,Arial,sans-serif;
+  font-size:$base-font-size;
+  color:$dark-grey;
+  background:$light-grey;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family:"pill-gothic-300mg",Helvetica,Arial,sans-serif;
+}
+
+a {
+  @include transition(color 1s ease);
+
+  color:$blue;
+  text-decoration:none;
+
+  &:hover {
+    color:darken($blue, 20%);
+  }
+}
+
+.button {
+  @include border-radius(5px);
+
+  padding:.5em 1em;
+  color:#fff;
+  background:$blue;
+  text-shadow:0 -1px 0 rgba(0,0,0,.25);
+
+  &:hover {
+    background:#000;
+    color:#fff;
+  }
+}
+
+.button-black {
+  background:#000;
+}
+
+.wrap {
+  width: grid-width($columns);
+  margin:0 auto;
+}
