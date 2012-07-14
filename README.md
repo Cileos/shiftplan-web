@@ -8,5 +8,5 @@ CSS compilation (without rails)
 ===============================
 
 * `gem install bourbon`
-* locate bourbon and symlink `<bourbon>/app/assets/stylesheets/` to `<shiftplan-web>/asssets/scss/bourbon`
-* use sass to compile files on every change: `sass -r bourbon --watch assets/scss:assets/css`
+* go to `assets/scss` and run `bourbon install`
+* use sass to compile files on every change: `sass -r ./assets/scss/bourbon/lib/bourbon.rb --watch assets/scss:assets/css`
