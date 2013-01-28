@@ -76,11 +76,15 @@ header.master {
   margin-top:30px;
   position:relative;
 
+  img {
+    width:100%;
+  }
+
   nav {
     position:absolute;
     top:50%;
     margin:-12px 0 0 150px;
-    font-size:modular-scale(1, $base-font-size, golden());
+    font-size:modular-scale(0.5, $base-font-size, golden());
   }
 
   li {
