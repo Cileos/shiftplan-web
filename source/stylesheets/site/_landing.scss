@@ -70,7 +70,7 @@ header.master {
 }
 
 .screenshot {
-  @include span-columns(14);
+  @include span-columns(10);
   @include push(1);
 
   margin-top:30px;
