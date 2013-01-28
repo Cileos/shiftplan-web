@@ -1,0 +1,56 @@
+!!! 5
+%html
+  %head
+    %title Clockwork
+
+    = stylesheet_link_tag "vendor/normalize", "vendor/socialico", "site"
+    = javascript_include_tag "all"
+
+    %script{type: "text/javascript", src: "//use.typekit.com/gye8xts.js"}
+
+    %meta{charset: "utf-8"}
+    %meta{name: "viewport", content: "width=device-width, initial-scale=1.0"}
+
+    :javascript
+      try{Typekit.load();}catch(e){}
+
+  %body
+    %header.master{role: "banner"}
+      %nav{role: "navigation"}
+        %h1
+          %span Clockwork
+
+        %ul
+          %li
+            = link_to "Features", "#"
+          %li
+            = link_to "Plans &amp; Pricing", "#"
+          %li
+            = link_to "Log in", "#"
+          %li
+            = link_to "Start your free trial", "#", class: "button button-black"
+
+    = yield
+
+    %footer{role: "footer"}
+      %nav
+        %ul
+          %li
+            = link_to "Features", "#"
+          %li
+            = link_to "Plans &amp; Pricing", "#"
+          %li
+            = link_to "About us", "#"
+          %li
+            = link_to "Blog", "#"
+          %li
+            = link_to "Contact &amp; Support", "#"
+
+        %ul.social
+          %li
+            = link_to "", "#", data: {icon: "facebook"}, class: "facebook"
+          %li
+            = link_to "", "#", data: {icon: "twitter"}, class: "twitter"
+          %li
+            = link_to "", "#", data: {icon: "rss"}, class: "rss"
+

@@ -4,7 +4,8 @@
 
 # Susy grids in Compass
 # First: gem install susy --pre
-# require 'susy'
+require 'susy'
+require 'modular-scale'
 
 # Change Compass configuration
 # compass_config do |config|

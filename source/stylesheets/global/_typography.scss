@@ -1,0 +1,5 @@
+@import "modular-scale";
+
+h1 {
+  font-size: modular-scale(2, $base-font-size, golden()); 
+}

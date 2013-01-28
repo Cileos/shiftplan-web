@@ -1,0 +1,9 @@
+@import "susy";
+
+$total-columns: 12;
+
+[role=navigation],
+[role=footer], 
+.wrap {
+  @include container;
+}
