@@ -47,6 +47,11 @@ ul {
   }
 }
 
+.big-button {
+  font-size: modular-scale(0.5, $base-font-size, golden());
+  border-radius: 2em; 
+}
+
 .button-black {
   background:#000;
 }
@@ -55,7 +60,7 @@ ul {
   background:$green;
 
   &:hover {
-    background:$green;
+    background:darken($green, 5%);
   }
 }
 

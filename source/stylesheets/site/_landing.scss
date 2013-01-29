@@ -83,7 +83,7 @@ header.master,
   }
 
   .button {
-    border-radius: 2em;
+    @extend .big-button;
   }
 
   a {
