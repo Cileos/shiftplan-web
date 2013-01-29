@@ -31,6 +31,10 @@
   .button {
     color: #fff;
     opacity: 1;
+
+    &:hover {
+      background: $green;
+    }
   }
 
   .navigation-flyout {
