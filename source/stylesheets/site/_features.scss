@@ -1,0 +1,47 @@
+.features {
+  &.featured {
+    background: $blue;
+    color: white;
+    padding: 30px 0 15px;
+
+    .feature {
+      h2 {
+        padding-top: 80px;
+        background-position: top center;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+
+  .templates h2 {
+    background-image: image-url("features/icon-templates.png"); 
+  }
+
+  .notifications h2 {
+    background-image: image-url("features/icon-notifications.png");
+  }
+
+  .shift-trading h2 {
+    background-image: image-url("features/icon-trading.png");
+  }
+
+  h1, h2 {
+    font-family: $proxima-nova;
+  }
+
+  ul {
+    @include container;
+  }
+
+  .feature {
+    @include span-columns(12);
+
+    @media only screen and (min-width: 600px) {
+      @include span-columns(4);
+
+      &:nth-child(3n) {
+        @include span-columns(4 omega);
+      }
+    }
+  }
+}

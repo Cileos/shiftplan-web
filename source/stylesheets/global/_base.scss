@@ -10,15 +10,11 @@
 }
 
 html, body {
-  font-family:"proxima-nova",Helvetica,Arial,sans-serif;
+  font-family:$proxima-nova;
   font-size:$base-font-size;
   color:$dark-grey;
   background:$light-grey;
 
-}
-
-h1,h2,h3,h4,h5,h6 {
-  font-family:"pill-gothic-300mg",Helvetica,Arial,sans-serif;
 }
 
 a {
