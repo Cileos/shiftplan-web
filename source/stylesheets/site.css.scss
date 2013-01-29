@@ -1,7 +1,14 @@
+/* Config */
 @import "config/settings";
 
+/* Global stylesheets */
 @import "global/base";
 @import "global/typography";
 @import "global/layout";
 
+/* Module-specific stylesheets */
+@import "components/navigation";
+@import "components/footer";
+
+/* Page-specific stylesheets */
 @import "site/landing"

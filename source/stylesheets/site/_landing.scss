@@ -6,49 +6,14 @@ header.master,
   color:$light-grey;
 }
 
-header.master {
-  padding-top:10px;
-
-  h1 {
-    float:left;
-    margin: 0;
-  }
-
-  nav {
-    @include clearfix;
-
-    border-bottom:1px solid rgba(255,255,255,.1);
-
-    ul {
-      padding:0;
-      margin:25px 0;
-      float:right;
-    }
-
-    li {
-      display:inline;
-      float:left;
-      margin-right:30px;
-
-      &:last-child {
-        margin-right:0;
-      }
-    }
-
-    a {
-      opacity:$inactive-opacity;
-      color:$light-grey;
-
-      &:hover {
-        opacity:$active-opacity;
-      }
-    }
-  }
-}
-
 .teaser {
   padding-top:50px;
   height:585px;
+
+  h1 {
+    margin-top:0;
+    letter-spacing:-0.05em;
+  }
 
   h1, h2 {
     letter-spacing:-0.025em;
@@ -70,29 +35,50 @@ header.master {
 }
 
 .screenshot {
-  @include span-columns(10);
-  @include push(1);
+  @include span-columns(12);
 
   margin-top:30px;
   position:relative;
+
+  @media only screen and (min-width: 600px) {
+    @include span-columns(10);
+    @include push(1);
+  }
 
   img {
     width:100%;
   }
 
   nav {
+    width:70%;
     position:absolute;
     top:50%;
-    margin:-12px 0 0 150px;
+    margin-top: -36px;
     font-size:modular-scale(0.5, $base-font-size, golden());
+    left:50%;
+    margin-left:-35%;
+
+    @media only screen and (min-width: 600px) {
+      margin-top: -12px;
+      margin-bottom: 0; 
+    }
+  }
+
+  ul {
+    list-style: none;
   }
 
   li {
-    display:inline;
-    float:left;
+    margin-bottom: 30px;
 
-    &:first-child {
-      margin-right:100px;
+    @media only screen and (min-width: 600px) {
+      display:inline;
+      float:left;
+      margin-bottom: 0;
+
+      &:last-child {
+        float:right;
+      }
     }
   }
 
@@ -111,51 +97,3 @@ header.master {
   } 
 }
 
-[role=footer] {
-  width:810px;
-  padding-top:90px;
-
-  ul {
-    padding:0 20px;
-
-    &:first-child {
-      float:left;
-    }
-  }
-
-  .social {
-    float:right;
-    margin:5px;
-
-    li {
-      margin:0;
-    }
-
-    a {
-      cursor:pointer;
-      display:block;
-    }
-
-    .facebook:hover { color:#3B5998; }
-    .twitter:hover { color:#0084B4; }
-    .rss:hover { color:#f60; }
-  }
-
-  li {
-    display:inline;
-    float:left;
-    margin-right:20px;
-
-    &:last-child {
-      margin:0;
-    }
-  }
-
-  a {
-    color:$dark-grey;
-
-    &:hover {
-      color:#000;
-    }
-  }
-}

@@ -62,3 +62,36 @@ ul {
     background:$green;
   }
 }
+
+
+header.master {
+  padding-top:10px;
+
+  h1 {
+    margin: 0;
+    float: left;
+  }
+
+  nav {
+    @include clearfix;
+
+    border-bottom:1px solid rgba(255,255,255,.1);
+
+    @media only screen and (min-width: 600px) {
+      ul {
+        padding:0;
+        margin:20px 0;
+        float:right;
+      }
+    }
+
+    a {
+      opacity:$inactive-opacity;
+      color:$light-grey;
+
+      &:hover {
+        opacity:$active-opacity;
+      }
+    }
+  }
+}
