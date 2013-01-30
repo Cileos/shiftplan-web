@@ -1,7 +1,9 @@
 .pricing
   .page
     %h1 Which clock works for you?
-    %h2 All plans come with a 30-day trial period (no credit card required)
+    %h2 
+      30 days to make the best of Clockwork. Do your best. And no, we don't 
+      need your credit card.
 
     .plans
       %dl.plan.small
@@ -10,10 +12,18 @@
         %dd.price
           %span.price-in-eur 29€
           %span.price-in-dollars $39
+          %span.footnote 
+            paid annually. 
+            %span.price-in-eur 33€ 
+            %span.price-in-dollars $45
+            month-by-month.
         %dd.info
           Up to 
           %strong 19 
           employees
+        %dd.info.secondary
+          %strong Unlimited
+          Units
         %dd.actions
           = link_to "Sign up", "#", class: "button big-button"
 
@@ -23,10 +33,18 @@
         %dd.price
           %span.price-in-eur 79€
           %span.price-in-dollars $89
+          %span.footnote 
+            paid annually. 
+            %span.price-in-eur 87€ 
+            %span.price-in-dollars $98
+            month-by-month.
         %dd.info
           Up to 
           %strong 49 
           employees
+        %dd.info.secondary
+          %strong Unlimited
+          Units
         %dd.actions
           = link_to "Sign up", "#", class: "button big-button"
 
@@ -37,14 +55,22 @@
         %dd.price
           %span.price-in-eur 129€
           %span.price-in-dollars $149
+          %span.footnote 
+            paid annually. 
+            %span.price-in-eur 142€ 
+            %span.price-in-dollars $164
+            month-by-month.
         %dd.info
           Up to 
           %strong 99
           employees
+        %dd.info.secondary
+          %strong Unlimited
+          Units
         %dd.actions
           = link_to "Sign up", "#", class: "button big-button"
 
 .info-box
   %h2
     Need a bigger plan?
-    = link_to "Get in touch", "#", class: "button big-button button-green"
+    = link_to "Get in touch", "mailto:info@clockwork.io?subject=I+need+a+bigger+plan!", class: "button big-button button-green"

@@ -28,6 +28,11 @@
     text-transform: uppercase;
   }
 
+  h2 {
+    color: $light-blue;
+    font-weight: normal;
+  }
+
   dt, dd {
     padding: 0;
     margin: 0;
@@ -98,6 +103,22 @@
 
     .info {
       text-align: center;
+
+      &.secondary {
+        color: $mid-grey;
+      }
+    }
+
+    .footnote {
+      font-family: $serif;
+      font-weight: normal;
+      font-style: italic;
+      font-size: 12px;
+      letter-spacing: 0;
+      color: $mid-grey;
+      clear: both;
+      display: block;
+      line-height: 1.0;
     }
 
     .actions {
