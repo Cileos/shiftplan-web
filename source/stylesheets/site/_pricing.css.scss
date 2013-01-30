@@ -1,0 +1,136 @@
+@import "compass/css3/transform";
+@import "compass/css3/transition";
+@import "compass/css3/border-radius";
+
+.pricing {
+  background: $blue;
+
+  &.in-dollars {
+    .price-in-eur {
+      display: none;
+    }
+
+    .price-in-dollars {
+      display: inline;
+    }
+  }
+
+  h1, h2 {
+    color: white;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: modular-scale(3, $base-font-size, golden());
+    font-family: $pill-gothic;
+    margin: 0;
+    padding: 1em 0 0;
+    text-transform: uppercase;
+  }
+
+  dt, dd {
+    padding: 0;
+    margin: 0;
+  }
+
+  .page {
+    @include container;
+  }
+
+  .plan {
+    @include span-columns(12);
+    @include border-radius(.5em);
+
+    background: white;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: $dark-grey;
+    border-bottom: 10px solid darken($blue, 10%);
+    position: relative; 
+
+    @media only screen and (min-width: 600px) {
+      @include span-columns(4);
+
+      margin-top: 3em;
+      margin-bottom: 3em;
+
+      &:nth-child(3n) {
+        @include span-columns(4 omega);
+      }
+    }
+
+    &.featured {
+      .name, .price {
+        color: white;
+      }
+
+      .name {
+        background: $featured-plan-color;
+      }
+    }
+
+    &.small {
+      .name {
+        background: $small-plan-color;
+      }
+    }
+
+    &.big {
+      .name {
+        background: $biggest-plan-color;
+      }
+    }
+
+    .name, .price {
+      color: #fff;
+    }
+
+    .name, .price, .info, .actions {
+      padding: 1em;
+    }
+
+    .name {
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: .2em;
+    }
+
+    .info {
+      text-align: center;
+    }
+
+    .actions {
+      text-align: center;
+      margin: 1em 0;
+    }
+
+    .button {
+      font-size: modular-scale(0.5, $base-font-size, golden());
+      background: white;
+      border: 1px solid $mid-grey;
+      color: $mid-grey;
+      letter-spacing: 0;
+    }
+
+    &.featured .button {
+      color: white;
+      background: $green;
+      border-color: $green;
+    }
+
+    .price {
+      background: #18222a;
+      text-align: center;
+      font-size: modular-scale(3, $base-font-size, golden());
+      font-weight: bold;
+      letter-spacing: -.05em;
+      word-wrap: nowrap;
+      padding: .5em 0;
+    }
+
+    .price-in-dollars {
+      display: none;
+    }
+  }
+}

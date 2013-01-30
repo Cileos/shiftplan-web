@@ -9,5 +9,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+  line-height: 1.0;
   font-size: modular-scale(2, $base-font-size, golden()); 
 }

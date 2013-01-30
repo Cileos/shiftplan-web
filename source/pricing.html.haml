@@ -1,0 +1,50 @@
+.pricing
+  .page
+    %h1 Which clock works for you?
+    %h2 All plans come with a 30-day trial period (no credit card required)
+
+    .plans
+      %dl.plan.small
+        %dt.name
+          Solar
+        %dd.price
+          %span.price-in-eur 29€
+          %span.price-in-dollars $39
+        %dd.info
+          Up to 
+          %strong 19 
+          employees
+        %dd.actions
+          = link_to "Sign up", "#", class: "button big-button"
+
+      %dl.plan.featured
+        %dt.name
+          Steam
+        %dd.price
+          %span.price-in-eur 79€
+          %span.price-in-dollars $89
+        %dd.info
+          Up to 
+          %strong 49 
+          employees
+        %dd.actions
+          = link_to "Sign up", "#", class: "button big-button"
+
+
+      %dl.plan.big
+        %dt.name
+          Atomic
+        %dd.price
+          %span.price-in-eur 129€
+          %span.price-in-dollars $149
+        %dd.info
+          Up to 
+          %strong 99
+          employees
+        %dd.actions
+          = link_to "Sign up", "#", class: "button big-button"
+
+.info-box
+  %h2
+    Need a bigger plan?
+    = link_to "Get in touch", "#", class: "button big-button button-green"
