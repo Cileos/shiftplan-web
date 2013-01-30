@@ -2,7 +2,7 @@
   .page
     %h1 Which clock works for you?
     %h2 
-      30 days to make the best of Clockwork. Do your best. And no, we don't 
+      30 days to make the best of Clockwork. Go for it. And no, we don't 
       need your credit card.
 
     .plans
@@ -69,6 +69,9 @@
           Units
         %dd.actions
           = link_to "Sign up", "#", class: "button big-button"
+
+    %p.show-prices-in-dollars
+      = link_to "Show prices in dollars (USD)", "#", id: "switch_prices", class: "button big-button"
 
 .info-box
   %h2
