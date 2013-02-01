@@ -37,9 +37,13 @@ header.master,
 
 .screenshot {
   @include span-columns(12);
+  @include border-radius(5px 5px 0 0);
 
-  margin-top:30px;
+  margin-top: 30px;
+  padding-top: 25px;
   position:relative;
+  border: 1px solid #fff;
+  background: image-url("landing/icons-browser.png") 8px 6px no-repeat;
 
   @media only screen and (min-width: 600px) {
     @include span-columns(10);
@@ -48,6 +52,7 @@ header.master,
 
   img {
     width:100%;
+    border-top: 1px solid #fff;
   }
 
   nav {
