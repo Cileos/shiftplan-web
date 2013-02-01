@@ -90,6 +90,14 @@ header.master,
 
   .button {
     @extend .big-button;
+
+    display: block;
+    width: 100%;
+
+    @media only screen and (min-width: 600px) {
+      display: inline;
+      width: auto;
+    }
   }
 
   a {
