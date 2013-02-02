@@ -9,5 +9,9 @@ $total-columns: 12;
 }
 
 .hero {
-  padding-top: 3em;
+  padding-top: 3.5em;
+
+  h2 {
+    margin-top: 0;
+  }
 }
