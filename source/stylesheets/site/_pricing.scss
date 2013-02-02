@@ -53,7 +53,8 @@
     margin-bottom: 1em;
     color: $dark-grey;
     border-bottom: 10px solid darken($blue, 10%);
-    position: relative; 
+    position: relative;
+    line-height: 1.5;
 
     @media only screen and (min-width: 600px) {
       @include span-columns(4);
@@ -67,29 +68,34 @@
     }
 
     &.featured {
+      @include transform(scale(1.125));
+    
+      z-index: 99;
+
       .name, .price {
         color: white;
       }
 
       .name {
-        background: $featured-plan-color;
+        border-top: 10px solid $featured-plan-color;
       }
     }
 
     &.small {
       .name {
-        background: $small-plan-color;
+        border-top: 10px solid $small-plan-color;
       }
     }
 
     &.big {
       .name {
-        background: $biggest-plan-color;
+        border-top: 10px solid $biggest-plan-color;
       }
     }
 
     .name, .price {
-      color: #fff;
+      color: white;
+      background: $plan-background;
     }
 
     .name, .price, .info, .actions {
@@ -101,6 +107,16 @@
       text-transform: uppercase;
       font-weight: bold;
       letter-spacing: .2em;
+
+      .footnote {
+        text-transform: none;
+        font-style: normal;
+        font-family: $proxima-nova;
+
+        strong {
+          color: black;
+        }
+      }
     }
 
     .info {
@@ -111,6 +127,13 @@
       }
     }
 
+    .per-month {
+      font-weight: normal;
+      font-size: .5em;
+      color: $mid-grey;
+    }
+
+
     .footnote {
       font-family: $serif;
       font-weight: normal;
@@ -120,7 +143,6 @@
       color: $mid-grey;
       clear: both;
       display: block;
-      line-height: 1.0;
     }
 
     .actions {
@@ -143,13 +165,14 @@
     }
 
     .price {
-      background: #18222a;
       text-align: center;
-      font-size: modular-scale(3, $base-font-size, golden());
-      font-weight: bold;
+      font-size: modular-scale(3.5, $base-font-size, golden());
       letter-spacing: -.05em;
+      font-weight: bold;
       word-wrap: nowrap;
-      padding: .5em 0;
+      padding: 0 0 .25em;
+      background: $plan-background;
+      color: white;
     }
 
     .price-in-dollars {
@@ -159,7 +182,9 @@
 
   .show-prices-in-dollars {
     text-align: center;
-    
+    clear: both;
+    padding-top: 3em;
+
     .button {
       border: 1px solid rgba(255,255,255,.5);
       color: rgba(255,255,255,.5);
