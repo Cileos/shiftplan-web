@@ -21,11 +21,7 @@
   }
 
   h1 {
-    font-size: modular-scale(3, $base-font-size, golden());
-    font-family: $pill-gothic;
-    margin: 0;
-    padding: 1em 0 0;
-    text-transform: uppercase;
+    @extend .hero-header;
   }
 
   h2 {
@@ -68,9 +64,10 @@
     }
 
     &.featured {
-      @include transform(scale(1.125));
-    
-      z-index: 99;
+      @media only screen and (min-width: 600px) {
+        @include transform(scale(1.125));
+        z-index: 99;
+      }
 
       .name, .price {
         color: white;

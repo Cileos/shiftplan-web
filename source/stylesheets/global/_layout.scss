@@ -7,3 +7,7 @@ $total-columns: 12;
 .wrap {
   @include container;
 }
+
+.hero {
+  padding-top: 3em;
+}
