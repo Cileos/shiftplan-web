@@ -100,6 +100,8 @@
     &.featured {
       @media only screen and (min-width: 600px) {
         @include transform(scale(1.125));
+      
+        -webkit-font-smoothing: subpixel-antialiased;
         z-index: 99;
       }
 
@@ -165,6 +167,7 @@
       color: $mid-grey;
       clear: both;
       display: block;
+      padding-top: 10px;
 
       .price-in-eur { display: inline; }
       .price-in-dollars { display: none; }
@@ -172,7 +175,7 @@
 
     .actions {
       text-align: center;
-      margin: 1em 0;
+      margin: 0 0 1em;
     }
 
     .button {
@@ -193,7 +196,6 @@
     .price {
       text-align: center;
       font-size: modular-scale(3.5, $base-font-size, golden());
-      letter-spacing: -.05em;
       font-weight: bold;
       word-wrap: nowrap;
       padding: .25em 0;
