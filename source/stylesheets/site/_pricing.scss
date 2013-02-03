@@ -1,21 +1,51 @@
 @import "compass/css3/transform";
 @import "compass/css3/transition";
 @import "compass/css3/border-radius";
+@import "compass/css3/transform";
 
 .custom-plan-info {
-  margin-top: 200px;
+  margin-top: 175px;
 }
 
 .pricing {
   background: $blue;
 
   &.in-dollars {
-    .price-in-eur {
-      display: none;
+    .cost {
+      @include rotateX(-180deg);
+    }
+
+    .price-in-eur { display: none !important; }
+    .price-in-dollars { display: block !important; }
+
+    .footnote {
+      .price-in-dollars { display: inline !important; }
+    }
+  }
+
+  .cost {
+    @include backface-visibility(hidden);
+    @include transform-style(preserve-3d);
+    @include transition(all .25s linear);
+
+    position: relative;
+    display: block;
+    height: 70px;
+    line-height: 1.0;
+
+    .price-in-eur,
+    .price-in-dollars {
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: $plan-background;
     }
 
     .price-in-dollars {
-      display: inline !important;
+      @include rotateX(180deg);
+
+      display: none;
     }
   }
 
@@ -109,16 +139,6 @@
       font-weight: bold;
       letter-spacing: .2em;
       border-bottom: 1px solid $dark-grey;
-
-      .footnote {
-        text-transform: none;
-        font-style: normal;
-        font-family: $proxima-nova;
-
-        strong {
-          color: black;
-        }
-      }
     }
 
     .info {
@@ -145,6 +165,9 @@
       color: $mid-grey;
       clear: both;
       display: block;
+
+      .price-in-eur { display: inline; }
+      .price-in-dollars { display: none; }
     }
 
     .actions {
@@ -173,13 +196,9 @@
       letter-spacing: -.05em;
       font-weight: bold;
       word-wrap: nowrap;
-      padding: 0 0 .25em;
+      padding: .25em 0;
       background: $plan-background;
       color: white;
-    }
-
-    .price-in-dollars {
-      display: none;
     }
   }
 

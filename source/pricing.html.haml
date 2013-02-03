@@ -10,8 +10,9 @@
         %dt.name
           Solar
         %dd.price
-          %span.price-in-eur 29€
-          %span.price-in-dollars $39
+          %span.cost
+            %span.price-in-eur 29€
+            %span.price-in-dollars $39
           %span.footnote 
             per month, paid annually.
             %br/
@@ -32,8 +33,9 @@
         %dt.name
           Steam
         %dd.price
-          %span.price-in-eur 79€
-          %span.price-in-dollars $89
+          %span.cost
+            %span.price-in-eur 79€
+            %span.price-in-dollars $89
           %span.footnote 
             per month, paid annually. 
             %br/
@@ -55,8 +57,9 @@
         %dt.name
           Atomic
         %dd.price
-          %span.price-in-eur 129€
-          %span.price-in-dollars $149
+          %span.cost
+            %span.price-in-eur 129€
+            %span.price-in-dollars $149
           %span.footnote 
             per month, paid annually. 
             %br/
@@ -74,7 +77,7 @@
           = link_to "Sign up", "#", class: "button big-button"
 
     %p.show-prices-in-dollars
-      = link_to "Show prices in dollars (USD)", "#", id: "switch_prices", class: "button big-button"
+      = link_to "Show prices in USD", "#", id: "switch_prices", class: "button big-button in-eur"
 
 .info-box.custom-plan-info
   %h2
