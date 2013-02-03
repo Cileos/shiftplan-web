@@ -4,7 +4,7 @@
   nav {
     @include span-columns(12);
 
-    @media only screen and (min-width: 800px) {
+    @media only screen and (min-width: 720px) {
       @include span-columns(10);
       @include push(1);
     }
@@ -12,20 +12,23 @@
 
   ul {
     list-style: none;
+    text-align: center;
 
-    @media only screen and (min-width: 800px) {
+    @media only screen and (min-width: 720px) {
       padding: 0 20px;
       float: left;
+      text-align: left;
     }
   }
 
   li {
     padding: 5px 0;
+    text-align: center;
 
-    @media only screen and (min-width: 800px) {
+    @media only screen and (min-width: 600px) {
       display: inline;
-      float: left;
       margin-right: 20px;
+      text-align: left;
 
       &:last-child {
         margin-right: 0;
@@ -36,20 +39,20 @@
   .social {
     margin:5px;
     padding: 0;
+    text-align: center;
 
-    @media only screen and (min-width: 800px) {
+    @media only screen and (min-width: 720px) {
       float: right;
+      text-align: left;
     }
 
     li {
       margin:0;
       display:inline;
-      float: left;
     }
 
     a {
       cursor:pointer;
-      display:block;
     }
 
     .facebook:hover { color:#3B5998; }

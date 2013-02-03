@@ -4,11 +4,13 @@
 @import "compass/css3/transform";
 
 .custom-plan-info {
-  margin-top: 175px;
-}
+  @media only screen and (min-width: 600px) {
+    margin-top: 220px;
+  }
 
-.custom-plan-info {
-  margin-top: 200px;
+  @media only screen and (min-width: 720px) {
+    margin-top: 175px;
+  }
 }
 
 .pricing {
@@ -70,9 +72,9 @@
     @include border-radius(.5em);
 
     background: white;
-    margin-top: 1em;
-    margin-bottom: 1em;
     color: $dark-grey;
+    margin-top: .5em;
+    margin-bottom: .5em;
     border-bottom: 10px solid $mid-grey;
     position: relative;
     line-height: 1.5;
@@ -202,14 +204,24 @@
 
     .button {
       background: transparent; 
-      border: 1px solid $mid-grey;
-      color: $mid-grey;
+      border: 1px solid rgba(255,255,255,.5);
+      color: rgba(255,255,255,.5);
       text-shadow: none;
+
+      @media only screen and (min-width: 600px) {
+        color: $mid-grey;
+        border-color: $mid-grey;
+      }
 
       &:hover {
         background: transparent;
-        color: $dark-grey;
-        border-color: $dark-grey;
+        color: white;
+        border-color: white;
+
+        @media only screen and (min-width: 600px) {
+          color: $dark-grey;
+          border-color: $dark-grey;
+        }
       } 
     }
   }
