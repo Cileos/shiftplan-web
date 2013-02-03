@@ -15,23 +15,12 @@
   background: $blue;
 
   &.in-dollars {
-    .cost {
-      @include rotateX(-180deg);
-    }
-
     .price-in-eur { display: none !important; }
-    .price-in-dollars { display: block !important; }
-
-    .footnote {
-      .price-in-dollars { display: inline !important; }
-    }
+    .price-in-dollars { display: block !important; } 
+    .footnote .price-in-dollars { display: inline !important; }
   }
 
   .cost {
-    @include backface-visibility(hidden);
-    @include transform-style(preserve-3d);
-    @include transition(all .25s linear);
-
     position: relative;
     display: block;
     height: 70px;
@@ -47,8 +36,6 @@
     }
 
     .price-in-dollars {
-      @include rotateX(180deg);
-
       display: none;
     }
   }
