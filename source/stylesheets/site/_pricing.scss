@@ -30,6 +30,7 @@
     color: $plan-background;
     text-align: center;
     border: 5px solid darken(#fff6d9, 15%);
+    opacity:0.95;
     @include transform(rotate(-5deg));
   }
 
