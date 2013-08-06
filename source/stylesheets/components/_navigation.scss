@@ -1,0 +1,48 @@
+[role=navigation] {
+  ul {
+    list-style: none;
+    display: none;
+    clear: both;
+
+    @media only screen and (min-width: 600px) {
+      // !important to override inline style coming from JS toggle()
+      // just here until better solution is found
+      display: block !important;
+      clear: none;
+    }
+  }
+
+  li {
+    display: block;
+    padding: 10px 0;
+
+    @media only screen and (min-width: 600px) {
+      display: inline;
+      float: left;
+      margin-right: 30px;
+      padding: 0;
+      
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .button {
+    color: #fff;
+    opacity: 1;
+
+    &:hover {
+      background: $green;
+    }
+  }
+
+  .navigation-flyout {
+    float: right;
+    margin: 1em 0;
+
+    @media only screen and (min-width: 600px) {
+      display: none;
+    }
+  }
+}

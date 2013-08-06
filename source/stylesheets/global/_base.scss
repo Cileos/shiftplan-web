@@ -1,0 +1,99 @@
+@import "compass/css3/transition";
+@import "compass/css3/border-radius";
+@import "compass/css3/box-sizing";
+@import "susy";
+
+* {
+  @include box-sizing(border-box);
+
+  text-rendering: optimizeLegibility;
+}
+
+html, body {
+  font-family:$proxima-nova;
+  font-size:$base-font-size;
+  color:$dark-grey;
+  background:$light-grey;
+
+}
+
+a {
+  @include transition(all 1s);
+
+  color:$blue;
+  text-decoration:none;
+
+  &:hover {
+    color:darken($blue, 20%);
+  }
+}
+
+ul {
+  padding:0;
+}
+
+.button {
+  @include border-radius(.5em);
+  @include transition(all 1s);
+
+  padding:.5em 1em;
+  color:#fff;
+  background:$blue;
+  text-shadow:0 -1px 0 rgba(0,0,0,.25);
+  white-space: nowrap;
+  text-align: center;
+
+  &:hover {
+    background:#000;
+    color:#fff;
+  }
+}
+
+.big-button {
+  font-size: modular-scale(0.5, $base-font-size, golden());
+  border-radius: 2em; 
+}
+
+.button-black {
+  background:#000;
+}
+
+.button-green {
+  background:$green;
+
+  &:hover {
+    background:darken($green, 5%);
+  }
+}
+
+
+header.master {
+  h1 {
+    margin: 0;
+    float: left;
+  }
+
+  nav {
+    @include clearfix;
+
+    border-bottom:1px solid rgba(255,255,255,.1);
+    padding: 1em;
+
+    @media only screen and (min-width: 600px) {
+      ul {
+        padding:0;
+        margin:10px 0;
+        float:right;
+      }
+    }
+
+    a {
+      opacity:$inactive-opacity;
+      color:$light-grey;
+
+      &:hover {
+        opacity:$active-opacity;
+      }
+    }
+  }
+}
