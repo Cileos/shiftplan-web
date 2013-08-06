@@ -3,3 +3,4 @@
 assets/css/*
 assets/scss/bourbon
 assets/scss/neat
+build/
