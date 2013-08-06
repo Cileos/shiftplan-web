@@ -1,0 +1,16 @@
+%nav{role: "navigation"}
+  %h1
+    = link_to image_tag("clockwork-logo.png", alt: "Clockwork"), "/"
+
+  %a.navigation-flyout#navigation_flyout
+    %i.icon-list
+
+  %ul#navigation_list
+    %li
+      = link_to "Features", "features.html"
+    %li
+      = link_to "Plans &amp; Pricing", "pricing.html"
+    %li
+      = link_to "Log in", "https://app.clockwork.io/users/sign_in"
+    %li
+      = link_to "Start your free trial", "https://app.clockwork.io/users/sign_up", class: "button button-black"

@@ -1,0 +1,101 @@
+@import "compass/css3/box-shadow";
+
+header.master,
+.teaser {
+  background:$blue;
+  color:$light-grey;
+}
+
+.teaser {
+  h1, h2 {
+    text-align: center;
+  }
+
+  h1 {
+    @extend .hero-header; 
+  }
+
+  h2 {
+    font-size:modular-scale(1, $base-font-size, golden());
+    font-weight:400;
+    color:$light-blue;
+    margin-top:0;
+  }
+}
+
+.screenshot {
+  @include span-columns(12);
+  @include border-radius(5px 5px 0 0);
+
+  margin-top: 30px;
+  padding-top: 25px;
+  position:relative;
+  border: 1px solid #fff;
+  background: image-url("landing/icons-browser.png") 8px 6px no-repeat;
+
+  @media only screen and (min-width: 600px) {
+    @include span-columns(10);
+    @include push(1);
+  }
+
+  img {
+    width:100%;
+    border-top: 1px solid #fff;
+  }
+
+  nav {
+    width:70%;
+    position:absolute;
+    top:50%;
+    margin-top: -36px;
+    font-size:modular-scale(0.5, $base-font-size, golden());
+    left:50%;
+    margin-left:-35%;
+
+    @media only screen and (min-width: 600px) {
+      margin-top: -12px;
+      margin-bottom: 0; 
+    }
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  li {
+    margin-bottom: 30px;
+
+    @media only screen and (min-width: 600px) {
+      display:inline;
+      float:left;
+      margin-bottom: 0;
+
+      &:last-child {
+        float:right;
+      }
+    }
+  }
+
+  .button {
+    @extend .big-button;
+
+    display: block;
+    width: 100%;
+
+    @media only screen and (min-width: 600px) {
+      display: inline;
+      width: auto;
+    }
+  }
+
+  a {
+    @include transition(opacity 1s ease);
+
+    opacity:$inactive-opacity;
+
+    &:hover {
+      opacity:$active-opacity;
+    }
+  } 
+}
+

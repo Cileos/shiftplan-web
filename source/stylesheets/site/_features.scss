@@ -1,0 +1,51 @@
+.features {
+  &.featured {
+    background: $blue;
+    color: white;
+    padding-bottom: 1em;
+
+    .feature {
+      h2 {
+        padding-top: 80px;
+        background-position: top center;
+        background-repeat: no-repeat;
+        margin: 0;
+      }
+    }
+  }
+
+  .templates h2 {
+    background-image: image-url("features/icon-templates.png"); 
+  }
+
+  .notifications h2 {
+    background-image: image-url("features/icon-notifications.png");
+  }
+
+  .unlimited h2 {
+    background-image: image-url("features/icon-unlimited.png");
+  }
+
+  h1, h2 {
+    font-family: $proxima-nova;
+  }
+
+  ul {
+    @include container;
+
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .feature {
+    @include span-columns(12);
+
+    @media only screen and (min-width: 600px) {
+      @include span-columns(4);
+
+      &:nth-child(3n) {
+        @include span-columns(4 omega);
+      }
+    }
+  }
+}
