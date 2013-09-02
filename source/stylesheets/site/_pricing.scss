@@ -18,22 +18,6 @@
   position: relative;
   @include clearfix;
 
-  .beta-info {
-    position: absolute;
-    font-size: 1.5em;
-    top: 6.5em;
-    left: -2.5%;
-    width: 105%;
-    padding: 1em;
-    background: #FFF6D9;
-    z-index: 999;
-    color: $plan-background;
-    text-align: center;
-    border: 5px solid darken(#fff6d9, 15%);
-    opacity:0.95;
-    @include transform(rotate(-5deg));
-  }
-
   .button {
     background: $plan-background;
     margin-left: 10px;
@@ -45,7 +29,7 @@
 
   &.in-dollars {
     .price-in-eur { display: none !important; }
-    .price-in-dollars { display: block !important; } 
+    .price-in-dollars { display: block !important; }
     .footnote .price-in-dollars { display: inline !important; }
   }
 
@@ -120,7 +104,7 @@
     &.featured {
       @media only screen and (min-width: 600px) {
         @include transform(scale(1.125));
-      
+
         -webkit-font-smoothing: subpixel-antialiased;
         z-index: 99;
       }
@@ -230,7 +214,7 @@
     padding-top: 3em;
 
     .button {
-      background: transparent; 
+      background: transparent;
       border: 1px solid rgba(255,255,255,.5);
       color: rgba(255,255,255,.5);
       text-shadow: none;
@@ -249,7 +233,7 @@
           color: $dark-grey;
           border-color: $dark-grey;
         }
-      } 
+      }
     }
   }
 }

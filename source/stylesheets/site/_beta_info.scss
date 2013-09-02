@@ -1,0 +1,16 @@
+.beta-info {
+  position: absolute;
+  font-size: 1.5em;
+  top: 6.5em;
+  left: -2.5%;
+  width: 105%;
+  padding: 1em;
+  background: #FFF6D9;
+  z-index: 999;
+  color: $plan-background;
+  text-align: center;
+  border: 5px solid darken(#fff6d9, 15%);
+  opacity:0.95;
+  @include transform(rotate(-5deg));
+}
+
