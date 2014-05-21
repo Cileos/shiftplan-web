@@ -51,7 +51,7 @@ ul {
 
 .big-button {
   font-size: modular-scale(0.5, $base-font-size, golden());
-  border-radius: 2em; 
+  border-radius: 2em;
 }
 
 .button-black {
@@ -66,6 +66,13 @@ ul {
   }
 }
 
+.button-orange {
+  background:$orange;
+
+  &:hover {
+    background:darken($orange, 10%);
+  }
+}
 
 header.master {
   h1 {

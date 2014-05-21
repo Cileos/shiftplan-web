@@ -4,8 +4,15 @@
     color: white;
     padding-bottom: 1em;
 
+    h1 {
+      text-align: center;
+      padding-bottom: 1em;
+      @extend .hero-header;
+    }
+
     .feature {
       h2 {
+        text-align: center;
         padding-top: 80px;
         background-position: top center;
         background-repeat: no-repeat;
@@ -15,7 +22,7 @@
   }
 
   .templates h2 {
-    background-image: image-url("features/icon-templates.png"); 
+    background-image: image-url("features/icon-templates.png");
   }
 
   .notifications h2 {

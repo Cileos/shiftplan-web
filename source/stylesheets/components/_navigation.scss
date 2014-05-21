@@ -21,7 +21,7 @@
       float: left;
       margin-right: 30px;
       padding: 0;
-      
+
       &:last-child {
         margin-right: 0;
       }
@@ -31,10 +31,6 @@
   .button {
     color: #fff;
     opacity: 1;
-
-    &:hover {
-      background: $green;
-    }
   }
 
   .navigation-flyout {
