@@ -1,0 +1,92 @@
+.hero.pricing
+  .page
+    %h1 Which clock works for you?
+    %h2
+      30 days to make the best of Clockwork. Go for it. And no, we don't
+      need your credit card.
+
+    .plans
+      %dl.plan.small
+        %dt.name
+          Solar
+        %dd.price
+          %span.cost
+            %span.price-in-eur €29
+            %span.price-in-dollars $39
+          %span.footnote
+            per month, paid annually.
+            %br/
+            %span.price-in-eur €33
+            %span.price-in-dollars $45
+            month-by-month.
+        %dd.info
+          Up to
+          %strong 19
+          employees
+        %dd.info.secondary
+          %strong Unlimited
+          Units
+        %dd.actions
+          = link_to "Sign up", "https://app.clockwork.io/signup", class: "button big-button"
+
+      %dl.plan.featured
+        %dt.name
+          Steam
+        %dd.price
+          %span.cost
+            %span.price-in-eur €79
+            %span.price-in-dollars $89
+          %span.footnote
+            per month, paid annually.
+            %br/
+            %span.price-in-eur €87
+            %span.price-in-dollars $98
+            month-by-month.
+        %dd.info
+          Up to
+          %strong 49
+          employees
+        %dd.info.secondary
+          %strong Unlimited
+          Units
+        %dd.actions
+          = link_to "Sign up", "https://app.clockwork.io/signup", class: "button big-button"
+
+
+      %dl.plan.big
+        %dt.name
+          Atomic
+        %dd.price
+          %span.cost
+            %span.price-in-eur €129
+            %span.price-in-dollars $149
+          %span.footnote
+            per month, paid annually.
+            %br/
+            %span.price-in-eur €142
+            %span.price-in-dollars $164
+            month-by-month.
+        %dd.info
+          Up to
+          %strong 99
+          employees
+        %dd.info.secondary
+          %strong Unlimited
+          Units
+        %dd.actions
+          = link_to "Sign up", "https://app.clockwork.io/signup", class: "button big-button"
+
+
+      .beta-info
+        This is a free preview of Clockwork
+
+        = link_to "give it a spin", "https://app.clockwork.io/signup", class: "button big-button button-green"
+
+    %p.show-prices-in-dollars
+      = link_to "Show prices in USD", "#", id: "switch_prices", class: "button big-button in-eur"
+
+
+.info-box.custom-plan-info
+  %h2
+    Need a bigger plan?
+    = link_to "Get in touch", "mailto:info@clockwork.io?subject=I+need+a+bigger+plan!", class: "button big-button button-green"
