@@ -12,11 +12,11 @@ header.master,
   }
 
   h1 {
-    @extend .hero-header; 
+    @extend .hero-header;
   }
 
   h2 {
-    font-size:modular-scale(1, $base-font-size, golden());
+    font-size:modular-scale(1, $base-font-size, $golden);
     font-weight:400;
     color:$light-blue;
     margin-top:0;

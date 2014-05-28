@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem "middleman", "~>3.0.7"
+gem "middleman", "~>3.3.3"
 
 gem "haml"
 gem "sass"
