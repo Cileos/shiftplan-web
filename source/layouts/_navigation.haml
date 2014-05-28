@@ -1,6 +1,6 @@
 %nav{role: "navigation"}
   %h1
-    = link_to image_tag("clockwork-logo.png", alt: "Clockwork"), "/"
+    = link_to image_tag("clockwork-logo.png", alt: "Clockwork"), "/#{I18n.locale}"
 
   %a.navigation-flyout#navigation_flyout
     %i.icon-list
@@ -14,3 +14,8 @@
       = link_to "Log in", "https://app.clockwork.io/users/sign_in"
     %li
       = link_to "Start your free trial", "https://app.clockwork.io/signup", class: "button button-orange"
+
+    %li
+      = link_to "EN", "/en/#{path_without_locale}.html", class: "translate"
+      |
+      = link_to "DE", "/de/#{path_without_locale}.html", class: "translate"
