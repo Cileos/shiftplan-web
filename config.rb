@@ -51,7 +51,9 @@ helpers do
 
   def path_without_locale
     # Assuming /:locale/page.html
-    @page_id.split("/", 2).last.sub(/\..*$/, '')
+    if @page_id
+      @page_id.split("/", 2).last.sub(/\..*$/, '')
+    end
   end
 
 end
