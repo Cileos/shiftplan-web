@@ -51,7 +51,7 @@ en:
   index:
    title: "Save time for pressing matters"
    text: "Make your life easier and your employees happier. Make it run like clockwork. No pun intended."
-   explorefeature: "Explore features"
+   explore-feature: "Explore features"
 
   pricing:
     title: "Which clock works for you?"
