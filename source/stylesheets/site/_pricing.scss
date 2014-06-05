@@ -183,7 +183,7 @@
     }
 
     .button {
-      /*font-size: modular-scale(0.5, $base-font-size, $golden));*/
+      font-size: modular-scale(0.5, $base-font-size, $golden);
       background: white;
       border: 1px solid $mid-grey;
       color: $mid-grey;
@@ -199,7 +199,7 @@
 
     .price {
       text-align: center;
-      /*font-size: modular-scale(3.5, $base-font-size, $golden);*/
+      font-size: modular-scale(3.5, $base-font-size, $golden);
       font-weight: bold;
       word-wrap: nowrap;
       padding: .25em 0;
