@@ -34,7 +34,7 @@ ul {
 
 .button {
   @include border-radius(.5em);
-  @include transition(all 1s);
+  @include transition(all 0.2s);
 
   padding:.5em 1em;
   color:#fff;
@@ -62,20 +62,24 @@ ul {
   background:$green;
 
   &:hover {
-    background:darken($green, 5%);
+    box-shadow: 0px 3px 0px 0px darken($green, 20%);
   }
 }
 
 .button-blue {
   background:$blue;
+
+  &:hover {
+    box-shadow: 0px 3px 0px 0px darken($blue, 20%);
+  }
 }
 
 .button-orange {
   background:$orange;
 
-  /*&:hover {*/
-    /*background:darken($orange, 10%);*/
-  /*}*/
+  &:hover {
+    box-shadow: 0px 3px 0px 0px darken($orange, 20%);
+  }
 }
 
 header.master {
