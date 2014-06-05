@@ -1,5 +1,71 @@
 ---
 en:
   features:
+    title: "Features"
+    flexible:
+      title: "Flexible"
+      text: "You are able to use a flexible structure according to your company.<br> With the help of organization, plans, work areas and qualifications"
+    calender:
+      title: "Calender Export"
+      text: "Import your Clockwork appointments in other calendar apps on your phone, tablet or computer.<br> So you're on the go always up to date."
+    report:
+      title: "Report"
+      text: "You can see who worked on what, when and how many hours. <br> Also downloadable as a CSV and Excel file."
+    conflicts:
+      title: "Conflicts"
+      text: "Never again double occupancy. In case an employee is on vacation or the shift is already taken? You will be notified."
+    sharing:
+      title: "Share your Documents"
+      text: "You have the ability to upload documents. Your employees and colleagues have access to them."
+    communication:
+      title: "Communication"
+      text: "For internal communication you can use blog posts. Also, employees can comment on shifts."
+  features-to-come:
+    title: "Features to come"
+    shift:
+      title: "Shift-Trading"
+      text: "with other employee gives you even more flexibility."
+    qualification:
+      title: "Qualification"
+      text: "based resource matching."
+    messagehub:
+      title: "MessageHub"
+      text: "for even better communication."
+    selfservice:
+      title: "Self-Service"
+      text: "indepenplanning on vacancies."
+
+  trial:
+    text: "Ready to give it a try?"
+    button: "Start your free trial"
+
+  navigation:
     features: "Features"
-    flexible: "Flexible"
+    prices: "Plans &amp; Pricing"
+    free-trial: "Start your free trial"
+    login: "Log in"
+    aboutus: "About us"
+    blog: "Blog"
+    imprint: "Imprint"
+
+  index:
+   title: "Save time for pressing matters"
+   text: "Make your life easier and your employees happier. Make it run like clockwork. No pun intended."
+   explorefeature: "Explore features"
+
+  pricing:
+    title: "Which clock works for you?"
+    text: "30 days to make the best of Clockwork. Go for it. And no, we don't      need your credit card."
+    free-preview: "This is a free preview of Clockwork"
+    free-preview-button: "Give it a spin!"
+    bigger-plan: "Need a bigger plan?"
+    bigger-plan-button: "Get in touch"
+    rate: "per month, paid annually."
+    rate-monthly: "month-by-month."
+    upto: "Up to"
+    employees: "employees"
+    units: "Unlimited Units"
+    signup: "Sign up"
+    show-prices: "Show Prices in USD"
+    show-prices-usd: "Show Prices in US-Dollar"
+    show-prices-eur: "Show Prices in Euro"
