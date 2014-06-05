@@ -6,9 +6,9 @@ $ ->
     event.preventDefault()
 
     if $(this).hasClass('in-eur')
-      $(this).text("Show prices in EUR")
+      $(this).text $(this).closest("p").data("in-eur")
     else
-      $(this).text("Show prices in USD")
+      $(this).text $(this).closest("p").data("in-usd")
 
-    $(this).parents('.pricing').toggleClass('in-dollars')
+    $(this).closest('.pricing').toggleClass('in-dollars')
     $(this).toggleClass('in-eur')
