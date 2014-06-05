@@ -1,67 +1,61 @@
 .hero.features.featured
   %h1
-    = t("features.features")
+    = t("features.title")
 
   %ul
-    %li.feature.templates
+    %li.feature.flexible
       %header
+        %i.fa.fa-sitemap.fa-3x
         %h2
-          = t("features.flexible")
-
+          = t("features.flexible.title")
       .content
         %p
-          You are able to use a flexible structure according to your company.
-          %br
-          With the help of organization, plans, work areas and qualifications
-    %li.feature.notifications
+          = t("features.flexible.text")
+
+    %li.feature.calender
       %header
-        %h2 Calender Export
-
+        %i.fa.fa-calendar.fa-3x
+        %h2
+          = t("features.calender.title")
       .content
         %p
-          Import your Clockwork appointments in other calendar apps on your phone, tablet or computer.
-          %br
-          So you're on the go always up to date.
+          = t("features.calender.text")
 
-    %li.feature.unlimited
+    %li.feature.report
       %header
-        %h2 Report
-
+        %i.fa.fa-file-text.fa-3x
+        %h2
+          = t("features.report.title")
       .content
         %p
-          You can see who worked on what, when and how many hours.
-          %br
-          Also downloadable as a CSV and Excel file.
+          = t("features.report.text")
 
-    %li.feature
+    %li.feature.conflicts
       %header
-        %h2 Conflicts
-
+        %i.fa.fa-flash.fa-3x
+        %h2
+          = t("features.conflicts.title")
       .content
         %p
-          Never again double occupancy.
-          %br
-          In case an employee is on vacation or the shift is already taken? You will be notified.
+          = t("features.conflicts.text")
 
-    %li.feature
+    %li.feature.sharing
       %header
-        %h2 Share your Documents
-
+        %i.fa.fa-files-o.fa-3x
+        %h2
+          = t("features.sharing.title")
       .content
         %p
-          You have the ability to upload documents.
-          %br
-          These then usable to your employees and colleagues.
+          = t("features.sharing.text")
 
-    %li.feature
+    %li.feature.communication
       %header
-        %h2 Communcation
-
+        %i.fa.fa-comments.fa-3x
+        %h2
+          = t("features.communication.title")
       .content
         %p
-          For internal communication are blog posts available.
-          %br
-          Also, employees can comment on shifts.
+          = t("features.communication.text")
 
         -#.beta-info
           -#This is a free preview of Clockwork - so some of the described features here are still under construction.
@@ -69,39 +63,42 @@
 
 .info-box.start-trial
   %h2
-    Ready to give it a try?
-    = link_to "Start your free trial", "https://app.clockwork.io/signup", class: "button big-button button-orange"
+    = t("trial.text")
+    = link_to t("trial.button"), "https://app.clockwork.io/signup", class: "button big-button button-orange"
 
 .features.to-come
-  %h2 Features do come
+  %h2
+    %i.fa.fa-gears
+    = t("features-to-come.title")
   %ul
     %li.feature-to-come
       %header
-        %h3 Shift-Trading
-
+        %h3
+          = t("features-to-come.shift.title")
       .content
         %p
-          with other employees gives you even more flexibility.
-    %li.feature-to-come
-      %header
-        %h3 Message-Hub
-
-      .content
-        %p
-          for even better communication.
+          = t("features-to-come.shift.text")
 
     %li.feature-to-come
       %header
-        %h3 Self-Service
-
+        %h3
+          = t("features-to-come.qualification.title")
       .content
         %p
-          planning on vacancies.
+          = t("features-to-come.qualification.text")
 
     %li.feature-to-come
       %header
-        %h3 Qualification
-
+        %h3
+          = t("features-to-come.messagehub.title")
       .content
         %p
-          based resource matching.
+          = t("features-to-come.messagehub.text")
+
+    %li.feature-to-come
+      %header
+        %h3
+          = t("features-to-come.selfservice.title")
+      .content
+        %p
+          = t("features-to-come.selfservice.text")

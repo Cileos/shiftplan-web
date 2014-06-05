@@ -1,9 +1,9 @@
 .hero.pricing
   .page
-    %h1 Which clock works for you?
+    %h1
+      = t("pricing.title")
     %h2
-      30 days to make the best of Clockwork. Go for it. And no, we don't
-      need your credit card.
+      = t("pricing.text")
 
     .plans
       %dl.plan.small
@@ -14,20 +14,20 @@
             %span.price-in-eur €29
             %span.price-in-dollars $39
           %span.footnote
-            per month, paid annually.
+            = t("pricing.rate")
             %br/
             %span.price-in-eur €33
             %span.price-in-dollars $45
-            month-by-month.
+            = t("pricing.rate-monthly")
         %dd.info
-          Up to
+          = t("pricing.upto")
           %strong 19
-          employees
+          = t("pricing.employees")
         %dd.info.secondary
-          %strong Unlimited
-          Units
+          %strong
+          = t("pricing.units")
         %dd.actions
-          = link_to "Sign up", "https://app.clockwork.io/signup", class: "button big-button"
+          = link_to t("pricing.signup"), "https://app.clockwork.io/signup", class: "button big-button"
 
       %dl.plan.featured
         %dt.name
@@ -37,20 +37,20 @@
             %span.price-in-eur €79
             %span.price-in-dollars $89
           %span.footnote
-            per month, paid annually.
+            = t("pricing.rate")
             %br/
             %span.price-in-eur €87
             %span.price-in-dollars $98
-            month-by-month.
+            = t("pricing.rate-monthly")
         %dd.info
-          Up to
+          = t("pricing.upto")
           %strong 49
-          employees
+          = t("pricing.employees")
         %dd.info.secondary
-          %strong Unlimited
-          Units
+          %strong
+          = t("pricing.units")
         %dd.actions
-          = link_to "Sign up", "https://app.clockwork.io/signup", class: "button big-button"
+          = link_to t("pricing.signup"), "https://app.clockwork.io/signup", class: "button big-button"
 
 
       %dl.plan.big
@@ -61,32 +61,31 @@
             %span.price-in-eur €129
             %span.price-in-dollars $149
           %span.footnote
-            per month, paid annually.
+            = t("pricing.rate")
             %br/
             %span.price-in-eur €142
             %span.price-in-dollars $164
-            month-by-month.
+            = t("pricing.rate-monthly")
         %dd.info
-          Up to
+          = t("pricing.upto")
           %strong 99
-          employees
+          = t("pricing.employees")
         %dd.info.secondary
-          %strong Unlimited
-          Units
+          %strong
+          = t("pricing.units")
         %dd.actions
-          = link_to "Sign up", "https://app.clockwork.io/signup", class: "button big-button"
+          = link_to t("pricing.signup"), "https://app.clockwork.io/signup", class: "button big-button"
 
 
-      .beta-info
-        This is a free preview of Clockwork
+      #beta-info
+        = t("pricing.free-preview")
+        = link_to t("pricing.free-preview-button"), "https://app.clockwork.io/signup", class: "button big-button"
 
-        = link_to "give it a spin", "https://app.clockwork.io/signup", class: "button big-button button-green"
-
-    %p.show-prices-in-dollars
-      = link_to "Show prices in USD", "#", id: "switch_prices", class: "button big-button in-eur"
+    %p.show-prices-in-dollars{data: {in_eur: t('pricing.show-prices-eur'), in_usd: t('pricing.show-prices-usd')}}
+      = link_to t("pricing.show-prices"), "#", id: "switch_prices", class: "button big-button in-eur"
 
 
 .info-box.custom-plan-info
   %h2
-    Need a bigger plan?
-    = link_to "Get in touch", "mailto:info@clockwork.io?subject=I+need+a+bigger+plan!", class: "button big-button button-green"
+    = t("pricing.bigger-plan")
+    = link_to t("pricing.bigger-plan-button"), "mailto:info@clockwork.io?subject=I+need+a+bigger+plan!", class: "button big-button button-green"

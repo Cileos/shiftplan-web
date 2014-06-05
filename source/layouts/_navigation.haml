@@ -7,13 +7,13 @@
 
   %ul#navigation_list
     %li
-      = link_to "Features", "features.html"
+      = link_to t("navigation.features"), "features.html"
     %li
-      = link_to "Plans &amp; Pricing", "pricing.html"
+      = link_to t("navigation.prices"), "pricing.html"
     %li
-      = link_to "Log in", "https://app.clockwork.io/users/sign_in"
+      = link_to t("navigation.login"), "https://app.clockwork.io/users/sign_in"
     %li
-      = link_to "Start your free trial", "https://app.clockwork.io/signup", class: "button button-orange"
+      = link_to t("navigation.free-trial"), "https://app.clockwork.io/signup", class: "button button-orange"
 
     %li
       = link_to "EN", "/en/#{path_without_locale}.html", class: "translate"
