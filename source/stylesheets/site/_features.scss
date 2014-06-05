@@ -6,7 +6,6 @@
 
     h1 {
       text-align: center;
-      padding-bottom: 1em;
       @extend .hero-header;
     }
 
@@ -19,10 +18,18 @@
     .feature {
       h2 {
         text-align: center;
-        padding-top: 80px;
+        padding-top: 20px;
         background-position: top center;
         background-repeat: no-repeat;
         margin: 0;
+      }
+      header {
+        text-align: center;
+        padding-top: 70px;
+      }
+      p {
+        text-align: center;
+        padding: 0px 10px;
       }
     }
   }

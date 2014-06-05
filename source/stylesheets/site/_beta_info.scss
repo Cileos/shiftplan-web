@@ -1,17 +1,22 @@
-.beta-info {
+#beta-info {
   position: absolute;
   font-size: 1.5em;
-  top: 6.5em;
+  top: 7em;
   left: -2.5%;
   width: 105%;
-  padding: 1em;
-  background: #FFF6D9;
+  padding: 0.8em;
+  background: $blue;
   z-index: 999;
-  color: $plan-background;
+  color: #fff;
   text-align: center;
-  border: 5px solid darken(#fff6d9, 15%);
+  border-bottom: 3px solid darken($blue, 25%);
   opacity:0.95;
   @include transform(rotate(-5deg));
+
+ .button {
+    background: $orange;
+  font-size: 0.9em;
+  }
 }
 
 .features .beta-info {
