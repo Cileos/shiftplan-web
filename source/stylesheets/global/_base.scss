@@ -23,9 +23,9 @@ a {
   color:$blue;
   text-decoration:none;
 
-  &:hover {
-    color:darken($blue, 20%);
-  }
+  /*&:hover {*/
+    /*color:darken($blue, 20%);*/
+  /*}*/
 }
 
 ul {
@@ -34,7 +34,7 @@ ul {
 
 .button {
   @include border-radius(.5em);
-  @include transition(all 1s);
+  @include transition(all 0.2s);
 
   padding:.5em 1em;
   color:#fff;
@@ -43,15 +43,15 @@ ul {
   white-space: nowrap;
   text-align: center;
 
-  &:hover {
-    background:#000;
-    color:#fff;
-  }
+  /*&:hover {*/
+    /*background:#000;*/
+    /*color:#fff;*/
+  /*}*/
 }
 
 .big-button {
-  font-size: modular-scale(0.5, $base-font-size, golden());
-  border-radius: 2em; 
+  /*font-size: modular-scale(0.5, $base-font-size, $golden);*/
+  border-radius: 2em;
 }
 
 .button-black {
@@ -62,10 +62,25 @@ ul {
   background:$green;
 
   &:hover {
-    background:darken($green, 5%);
+    box-shadow: 0px 3px 0px 0px darken($green, 20%);
   }
 }
 
+.button-blue {
+  background:$blue;
+
+  &:hover {
+    box-shadow: 0px 3px 0px 0px darken($blue, 20%);
+  }
+}
+
+.button-orange {
+  background:$orange;
+
+  &:hover {
+    box-shadow: 0px 3px 0px 0px darken($orange, 20%);
+  }
+}
 
 header.master {
   h1 {
@@ -82,7 +97,7 @@ header.master {
     @media only screen and (min-width: 600px) {
       ul {
         padding:0;
-        margin:10px 0;
+        margin:20px 0 0;
         float:right;
       }
     }

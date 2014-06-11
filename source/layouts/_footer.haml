@@ -2,20 +2,8 @@
   %nav
     %ul
       %li
-        = link_to "Features", "features.html"
+        = link_to t("navigation.features"), "features.html"
       %li
-        = link_to "Plans &amp; Pricing", "pricing.html"
+        = link_to t("navigation.prices"), "pricing.html"
       %li
-        = link_to "About us", "#"
-      %li
-        = link_to "Blog", "#"
-      %li
-        = link_to "Imprint", "impressum.html"
-
-    %ul.social
-      %li
-        = link_to "", "#", data: {icon: "facebook"}, class: "facebook"
-      %li
-        = link_to "", "#", data: {icon: "twitter"}, class: "twitter"
-      %li
-        = link_to "", "#", data: {icon: "rss"}, class: "rss"
+        = link_to t("navigation.imprint"), "impressum.html"

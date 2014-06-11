@@ -1,10 +1,10 @@
 .hero.teaser
   .wrap
     %header
-      %h1 Save time for pressing matters
+      %h1
+        = t("index.title")
       %h2
-        Make your life easier and your employees happier. Make it run like
-        clockwork. No pun intended.
+        = t("index.text")
 
     .screenshot
       = image_tag "screenshot.jpg", alt: ""
@@ -12,6 +12,6 @@
       %nav
         %ul
           %li
-            = link_to "Explore features", "features.html", class: "button button-black"
+            = link_to t("index.explore-feature"), "features.html", class: "button button-blue"
           %li
-            = link_to "Start your trial", "https://app.clockwork.io/signup", class: "button button-green"
+            = link_to t("navigation.free-trial"), "https://app.clockwork.io/signup", class: "button button-orange"

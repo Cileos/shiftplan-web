@@ -19,10 +19,10 @@ require 'modular-scale'
 # Per-page layout changes:
 #
 # With no layout
-# page "/path/to/file.html", :layout => false
+# page "/path/to/file.html", layout: false
 #
 # With alternative layout
-# page "/path/to/file.html", :layout => :otherlayout
+# page "/path/to/file.html", layout: :otherlayout
 #
 # A path which all have the same layout
 # with_layout :admin do
@@ -30,7 +30,7 @@ require 'modular-scale'
 # end
 
 # Proxy (fake) files
-# page "/this-page-has-no-template.html", :proxy => "/template-file.html" do
+# page "/this-page-has-no-template.html", proxy: "/template-file.html" do
 #   @which_fake_page = "Rendering a fake page with a variable"
 # end
 
@@ -47,6 +47,20 @@ require 'modular-scale'
 #     "Helping"
 #   end
 # end
+helpers do
+
+  def path_without_locale
+    # Assuming /:locale/page.html
+    if @page_id
+      @page_id.split("/", 2).last.sub(/\..*$/, '')
+    end
+  end
+
+end
+
+activate :livereload
+
+activate :i18n, path: "/:locale/", mount_at_root: false
 
 set :css_dir, 'stylesheets'
 

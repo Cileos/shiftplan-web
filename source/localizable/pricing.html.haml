@@ -1,0 +1,91 @@
+.hero.pricing
+  .page
+    %h1
+      = t("pricing.title")
+    %h2
+      = t("pricing.text")
+
+    .plans
+      %dl.plan.small
+        %dt.name
+          Solar
+        %dd.price
+          %span.cost
+            %span.price-in-eur €29
+            %span.price-in-dollars $39
+          %span.footnote
+            = t("pricing.rate")
+            %br/
+            %span.price-in-eur €33
+            %span.price-in-dollars $45
+            = t("pricing.rate-monthly")
+        %dd.info
+          = t("pricing.upto")
+          %strong 19
+          = t("pricing.employees")
+        %dd.info.secondary
+          %strong
+          = t("pricing.units")
+        %dd.actions
+          = link_to t("pricing.signup"), "https://app.clockwork.io/signup", class: "button big-button"
+
+      %dl.plan.featured
+        %dt.name
+          Steam
+        %dd.price
+          %span.cost
+            %span.price-in-eur €79
+            %span.price-in-dollars $89
+          %span.footnote
+            = t("pricing.rate")
+            %br/
+            %span.price-in-eur €87
+            %span.price-in-dollars $98
+            = t("pricing.rate-monthly")
+        %dd.info
+          = t("pricing.upto")
+          %strong 49
+          = t("pricing.employees")
+        %dd.info.secondary
+          %strong
+          = t("pricing.units")
+        %dd.actions
+          = link_to t("pricing.signup"), "https://app.clockwork.io/signup", class: "button big-button"
+
+
+      %dl.plan.big
+        %dt.name
+          Atomic
+        %dd.price
+          %span.cost
+            %span.price-in-eur €129
+            %span.price-in-dollars $149
+          %span.footnote
+            = t("pricing.rate")
+            %br/
+            %span.price-in-eur €142
+            %span.price-in-dollars $164
+            = t("pricing.rate-monthly")
+        %dd.info
+          = t("pricing.upto")
+          %strong 99
+          = t("pricing.employees")
+        %dd.info.secondary
+          %strong
+          = t("pricing.units")
+        %dd.actions
+          = link_to t("pricing.signup"), "https://app.clockwork.io/signup", class: "button big-button"
+
+
+      #beta-info
+        = t("pricing.free-preview")
+        = link_to t("pricing.free-preview-button"), "https://app.clockwork.io/signup", class: "button big-button"
+
+    %p.show-prices-in-dollars{data: {in_eur: t('pricing.show-prices-eur'), in_usd: t('pricing.show-prices-usd')}}
+      = link_to t("pricing.show-prices"), "#", id: "switch_prices", class: "button big-button in-eur"
+
+
+.info-box.custom-plan-info
+  %h2
+    = t("pricing.bigger-plan")
+    = link_to t("pricing.bigger-plan-button"), "mailto:info@clockwork.io?subject=I+need+a+bigger+plan!", class: "button big-button button-green"
