@@ -10,15 +10,15 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   line-height: 1.0;
-  font-size: modular-scale(2, $base-font-size, golden()); 
+  font-size: modular-scale(2, $base-font-size, $golden);
 }
 
 .hero-header {
   font-family: $pill-gothic;
   letter-spacing:-0.05em;
   text-align: center;
-  font-size: modular-scale(3, $base-font-size, golden());
+  font-size: modular-scale(3, $base-font-size, $golden);
   text-transform: uppercase;
   margin-top: 0;
-  margin-bottom: modular-scale(-1, $base-font-size, golden());
+  margin-bottom: modular-scale(-1, $base-font-size, $golden);
 }

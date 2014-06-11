@@ -1,0 +1,104 @@
+.hero.features.featured
+  %h1
+    = t("features.title")
+
+  %ul
+    %li.feature.flexible
+      %header
+        %i.fa.fa-sitemap.fa-3x
+        %h2
+          = t("features.flexible.title")
+      .content
+        %p
+          = t("features.flexible.text")
+
+    %li.feature.calender
+      %header
+        %i.fa.fa-calendar.fa-3x
+        %h2
+          = t("features.calender.title")
+      .content
+        %p
+          = t("features.calender.text")
+
+    %li.feature.report
+      %header
+        %i.fa.fa-file-text.fa-3x
+        %h2
+          = t("features.report.title")
+      .content
+        %p
+          = t("features.report.text")
+
+    %li.feature.conflicts
+      %header
+        %i.fa.fa-flash.fa-3x
+        %h2
+          = t("features.conflicts.title")
+      .content
+        %p
+          = t("features.conflicts.text")
+
+    %li.feature.sharing
+      %header
+        %i.fa.fa-files-o.fa-3x
+        %h2
+          = t("features.sharing.title")
+      .content
+        %p
+          = t("features.sharing.text")
+
+    %li.feature.communication
+      %header
+        %i.fa.fa-comments.fa-3x
+        %h2
+          = t("features.communication.title")
+      .content
+        %p
+          = t("features.communication.text")
+
+        -#.beta-info
+          -#This is a free preview of Clockwork - so some of the described features here are still under construction.
+
+
+.info-box.start-trial
+  %h2
+    = t("trial.text")
+    = link_to t("trial.button"), "https://app.clockwork.io/signup", class: "button big-button button-orange"
+
+.features.to-come
+  %h2
+    %i.fa.fa-gears
+    = t("features-to-come.title")
+  %ul
+    %li.feature-to-come
+      %header
+        %h3
+          = t("features-to-come.shift.title")
+      .content
+        %p
+          = t("features-to-come.shift.text")
+
+    %li.feature-to-come
+      %header
+        %h3
+          = t("features-to-come.qualification.title")
+      .content
+        %p
+          = t("features-to-come.qualification.text")
+
+    %li.feature-to-come
+      %header
+        %h3
+          = t("features-to-come.messagehub.title")
+      .content
+        %p
+          = t("features-to-come.messagehub.text")
+
+    %li.feature-to-come
+      %header
+        %h3
+          = t("features-to-come.selfservice.title")
+      .content
+        %p
+          = t("features-to-come.selfservice.text")

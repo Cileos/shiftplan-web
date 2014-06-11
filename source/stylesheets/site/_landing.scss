@@ -12,11 +12,11 @@ header.master,
   }
 
   h1 {
-    @extend .hero-header; 
+    @extend .hero-header;
   }
 
   h2 {
-    font-size:modular-scale(1, $base-font-size, golden());
+    font-size:modular-scale(1, $base-font-size, $golden);
     font-weight:400;
     color:$light-blue;
     margin-top:0;
@@ -48,13 +48,13 @@ header.master,
     position:absolute;
     top:50%;
     margin-top: -36px;
-    font-size:modular-scale(0.5, $base-font-size, golden());
+    font-size:modular-scale(0.5, $base-font-size, $golden);
     left:50%;
     margin-left:-35%;
 
     @media only screen and (min-width: 600px) {
       margin-top: -12px;
-      margin-bottom: 0; 
+      margin-bottom: 0;
     }
   }
 
@@ -96,6 +96,6 @@ header.master,
     &:hover {
       opacity:$active-opacity;
     }
-  } 
+  }
 }
 

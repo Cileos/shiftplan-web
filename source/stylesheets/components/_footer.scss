@@ -1,7 +1,12 @@
 [role=footer] {
   @include container;
 
+  border-top: 1px solid #e5e5e5;
+
   nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
     @include span-columns(12);
 
     @media only screen and (min-width: 720px) {
@@ -16,8 +21,7 @@
 
     @media only screen and (min-width: 720px) {
       padding: 0 20px;
-      float: left;
-      text-align: left;
+      text-align: center;
     }
   }
 
@@ -27,37 +31,13 @@
 
     @media only screen and (min-width: 600px) {
       display: inline;
-      margin-right: 20px;
+      margin-right: 50px;
       text-align: left;
 
       &:last-child {
         margin-right: 0;
       }
     }
-  }
-
-  .social {
-    margin:5px;
-    padding: 0;
-    text-align: center;
-
-    @media only screen and (min-width: 720px) {
-      float: right;
-      text-align: left;
-    }
-
-    li {
-      margin:0;
-      display:inline;
-    }
-
-    a {
-      cursor:pointer;
-    }
-
-    .facebook:hover { color:#3B5998; }
-    .twitter:hover { color:#0084B4; }
-    .rss:hover { color:#f60; }
   }
 
   a {

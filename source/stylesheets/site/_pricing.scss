@@ -183,7 +183,7 @@
     }
 
     .button {
-      font-size: modular-scale(0.5, $base-font-size, golden());
+      font-size: modular-scale(0.5, $base-font-size, $golden);
       background: white;
       border: 1px solid $mid-grey;
       color: $mid-grey;
@@ -199,7 +199,7 @@
 
     .price {
       text-align: center;
-      font-size: modular-scale(3.5, $base-font-size, golden());
+      font-size: modular-scale(3.5, $base-font-size, $golden);
       font-weight: bold;
       word-wrap: nowrap;
       padding: .25em 0;
@@ -215,23 +215,22 @@
 
     .button {
       background: transparent;
+      opacity: 0.75;
       border: 1px solid rgba(255,255,255,.5);
       color: rgba(255,255,255,.5);
       text-shadow: none;
 
       @media only screen and (min-width: 600px) {
-        color: $mid-grey;
-        border-color: $mid-grey;
+        opacity: 0.6;
+        color: white;
+        border-color: white;
       }
 
       &:hover {
-        background: transparent;
-        color: white;
-        border-color: white;
+        opacity: 1;
 
         @media only screen and (min-width: 600px) {
-          color: $dark-grey;
-          border-color: $dark-grey;
+          opacity: 1;
         }
       }
     }

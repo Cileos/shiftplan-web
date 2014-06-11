@@ -1,0 +1,71 @@
+---
+de:
+  features:
+    title: "Features"
+    flexible:
+      title: "Flexibel"
+      text: "Flexible Strukturierung entsprechend Deines Unternehmens mit Hilfe von<br> Organisationen, Plänen, Arbeitsbereichen und Qualifikationen."
+    calender:
+      title: "Kalender Export"
+      text: "Importiere Deine Clockwork Termine in andere Kalenderapps auf Deinem Handy, Tablet oder Computer.<br> So bist Du auch unterwegs immer auf dem neuesten Stand."
+    report:
+      title: "Auswertung"
+      text: "Lass Dir anzeigen, wer wann, wieviele Stunden, woran gearbeitet hat.<br> Auch downloadbar als csv- und Excel-Datei."
+    conflicts:
+      title: "Konflikte"
+      text: "Nie wieder Doppelbelegung! Ist ein Mitarbeiter im Urlaub oder ist die Schicht schon belegt? Du wirst darauf hingewiesen."
+    sharing:
+      title: "Dokumente teilen"
+      text: "Du hast die Möglichkeit Dokumente hochzuladen. Diese stehen dann Deinen Mitarbeitern und Kollegen zur Verfügung."
+    communication:
+      title: "Kommunikation"
+      text: "Zur internen Kommunikation stehen Blogposts zu Verfügung. Außerdem können die Mitarbeiter Schichten kommentieren."
+  features-to-come:
+    title: "geplante Features"
+    shift:
+      title: "Schichtentausch"
+      text: "unter den Kollegen sorgt für mehr Flexibilität."
+    qualification:
+      title: "Qualifikationsfilter"
+      text: "zeigt für die jeweilige Schicht Mitarbeiter gefiltert nach Qualifikationen an."
+    messagehub:
+      title: "MessageHub"
+      text: "für noch bessere Kommunikation."
+    selfservice:
+      title: "Self-Service"
+      text: "selbständige Anfrage zur Schichtenbelegung von Mitarbeiter."
+
+  trial:
+    text: "Haben wir Dich überzeugt?"
+    button: "Teste Clockwork kostenlos!"
+
+  navigation:
+    features: "Features"
+    prices: "Preise"
+    free-trial: "Kostenlos testen"
+    login: "Anmelden"
+    aboutus: "Über uns"
+    blog: "Blog"
+    imprint: "Impressum"
+
+  index:
+   title: "Arbeitsplanung -<br>leicht gemacht"
+   text: "für Deine Firma, Dein Projekt, Deine Teams ..."
+   explore-feature: "Unsere Features"
+
+  pricing:
+    title: "Was passt am besten?"
+    text: "30 Tage um Clockwork auszutesten. Versuch es doch! <br>Und nein, wir brauchen Deine Kreditkarte nicht."
+    free-preview: "Das ist eine kostenlose Testversion von Clockwork"
+    free-preview-button: "Probiere es aus!"
+    bigger-plan: "Noch mehr Mitarbeiter?"
+    bigger-plan-button: "Kontaktiere uns"
+    rate: "pro Monat, Zahlweise jährlich"
+    rate-monthly: "monatliche Zahlweise"
+    upto: "Bis zu"
+    employees: "Mitarbeiter"
+    units: "unbegrenzte Anzahl von Plänen"
+    signup: "Registrieren"
+    show-prices: "Zeige die Preise in US-Dollar"
+    show-prices-usd: "Zeige die Preise in US-Dollar"
+    show-prices-eur: "Zeige die Preise in Euro"
