@@ -10,7 +10,7 @@ de:
       text: "Importiere Deine Clockwork Termine in andere Kalenderapps auf Deinem Handy, Tablet oder Computer.<br> So bist Du auch unterwegs immer auf dem neuesten Stand."
     report:
       title: "Auswertung"
-      text: "Lass Dir anzeigen, wer wann, wieviele Stunden, woran gearbeitet hat.<br> Auch downloadbar als csv-und Excel-Datei."
+      text: "Lass Dir anzeigen, wer wann, wieviele Stunden, woran gearbeitet hat.<br> Auch downloadbar als csv- und Excel-Datei."
     conflicts:
       title: "Konflikte"
       text: "Nie wieder Doppelbelegung! Ist ein Mitarbeiter im Urlaub oder ist die Schicht schon belegt? Du wirst darauf hingewiesen."
@@ -55,7 +55,7 @@ de:
 
   pricing:
     title: "Was passt am besten?"
-    text: "30 Tage um Clockwork auszutesten. Versuch es doch! <br>Und nein, wir brauchen nicht Deine Kreditkarte."
+    text: "30 Tage um Clockwork auszutesten. Versuch es doch! <br>Und nein, wir brauchen Deine Kreditkarte nicht."
     free-preview: "Das ist eine kostenlose Testversion von Clockwork"
     free-preview-button: "Probiere es aus!"
     bigger-plan: "Noch mehr Mitarbeiter?"
