@@ -74,6 +74,7 @@
 
     @media only screen and (min-width: 600px) {
       @include span-columns(3);
+      padding-right:20px;
 
       &:nth-child(4n) {
         @include span-columns(3 omega);
