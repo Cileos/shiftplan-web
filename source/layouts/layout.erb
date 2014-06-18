@@ -27,9 +27,14 @@
 	<script>
 		jQuery('body:not(.js)').addClass('js');
 	</script>
-
-	<div id="wrapper">
-		<%= yield %>
-	</div>
+  <header id="header" >
+    <nav id="navigation">
+      <%= partial "partials/nav" %>
+    </nav>
+  </header>
+  <div id="main" role="main">
+    <%= yield %>
+    <%= partial "partials/footer" %>
+  </div>
 </body>
 </html>
