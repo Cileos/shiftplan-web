@@ -1,4 +1,20 @@
-<a href="#">Features</a>
-<a href="#">Preise</a>
-<a href="#">Kostenlos testen</a>
-<a href="#">Einloggen</a>
+<%= link_to image_tag("clockwork-logo.png", alt: "Clockwork"), "/#{I18n.locale}" %>
+
+<ul>
+  <li>
+    <%= link_to t("navigation.features"), "#" %>
+  </li>
+  <li>
+    <%= link_to t("navigation.prices"), "#" %>
+  </li>
+  <li>
+    <%= link_to t("navigation.testing"), "#", class: "button button-orange" %>
+  </li>
+  <li>
+    <%= link_to t("navigation.login"), "#" %>
+  </li>
+  <li>
+    <%= link_to "EN", "/en/#{path_without_locale}.html", class: "translate"%>|
+    <%= link_to "DE", "/de/#{path_without_locale}.html", class: "translate"%>
+  </li>
+</ul>
