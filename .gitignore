@@ -1,6 +1,6 @@
-.sass-cache
-.DS_Store
-assets/css/*
-assets/scss/bourbon
-assets/scss/neat
-build/
+.tm_properties
+Gemfile.lock
+/.bundle
+/.sass-cache
+/build
+/components
