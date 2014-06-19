@@ -1,42 +1,31 @@
-<!doctype html>
-<!--[if lt IE 7]><html lang="es-ES" class="ie ie6 ltie9 ltie8 ltie7"><![endif]-->
-<!--[if IE 7]><html lang="es-ES" class="ie ie7 ltie9 ltie8"><![endif]-->
-<!--[if IE 8]><html lang="es-ES" class="ie ie8 ltie9"><![endif]-->
-<!--[if IE 9]><html lang="es-ES" class="ie ie9"><![endif]-->
-<!--[if gt IE 9]><html lang="es-ES" class="ie"><![endif]-->
-<!--[if !IE]><!-->
-<html lang="es-ES">
-<!--<![endif]-->
-<head>
-	<!--[if IE]><![endif]-->
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<!--[if IE]>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Clockwork - Smart Workforce Management App</title>
 
-	<title><%= current_page.data.title || "Sample Page" %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
-	<%= stylesheet_link_tag "styles" %>
-	<%= yield_content :styles %>
+    <%= stylesheet_link_tag "styles" %>
+    <%= yield_content :styles %>
 
-	<%= javascript_include_tag  "main" %>
-	<%= yield_content :js %>
-</head>
-<body>
-	<script>
-		jQuery('body:not(.js)').addClass('js');
-	</script>
-  <header>
-    <nav>
-      <%= partial "partials/nav" %>
-    </nav>
-  </header>
-  <div id="main" role="main">
-    <%= yield %>
-  </div>
-  <footer>
-    <%= partial "partials/footer" %>
-  </footer>
-</body>
+    <%= javascript_include_tag  "main" %>
+    <%= yield_content :js %>
+  </head>
+  <body>
+    <script>
+      jQuery('body:not(.js)').addClass('js');
+    </script>
+    <header>
+      <nav>
+        <%= partial "partials/nav" %>
+      </nav>
+    </header>
+    <div id="main" role="main">
+      <%= yield %>
+    </div>
+    <footer>
+      <%= partial "partials/footer" %>
+    </footer>
+  </body>
 </html>

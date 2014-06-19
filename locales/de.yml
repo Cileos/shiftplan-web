@@ -5,3 +5,10 @@ de:
     prices: "Preise"
     testing: "Kostenlos testen"
     login: "Einloggen"
+  footer:
+    features: "Features"
+    prices: "Preise"
+    testing: "Kostenlos testen"
+    login: "Einloggen"
+    faq: "FAQ"
+    blog: "Blog"

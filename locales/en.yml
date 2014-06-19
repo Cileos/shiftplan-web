@@ -5,3 +5,10 @@ en:
     prices: "Prices"
     testing: "Free Trial"
     login: "Log in"
+  footer:
+    features: "Features"
+    prices: "Prices"
+    testing: "Free Trial"
+    login: "Log in"
+    faq: "FAQ"
+    blog: "Blog"

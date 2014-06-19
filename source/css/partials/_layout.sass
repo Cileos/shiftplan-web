@@ -1,12 +1,28 @@
 body
   padding: 0
   margin: 0
-  font-family: Lucida Grande, Helvetica, Arial, sans-serif
+  font-family: $sans-serif, Helvetica, Arial, sans-serif
   font-size: 12px
 
 
 #main
   @include outer-container
+  h1
+    font-family: $header-font
+    font-weight: normal
+    font-size: 36px
+    color: #333
+    text-transform: uppercase
+    word-spacing: 2px
+    text-align: center
+  h2
+    font-family: $header-font
+    font-weight: normal
+    font-size: 24px
+    text-align: center
+    color: #333
+    word-spacing: 2px
+
 
 .button
   +border-radius(.5em)
