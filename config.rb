@@ -30,5 +30,3 @@ helpers do
   end
 
 end
-
-
