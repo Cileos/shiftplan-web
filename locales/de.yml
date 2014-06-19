@@ -5,6 +5,26 @@ de:
     prices: "Preise"
     testing: "Kostenlos testen"
     login: "Einloggen"
+
+  content:
+    title: "Arbeitsplanung - leicht gemacht"
+    subtitle: "für Deine Firma, Dein Projekt, Deine Teams ..."
+    what_title: "Was ist Clockwork?"
+    what_content: "Clockwork ist ein Tool, mit dem Du Mitarbeiter anlegst und deren
+    Arbeitsschichten in Plänen einteilen kannst - sei es auf Wochenbasis oder zeitlich begrenzt.
+    So behalten Du und Deine Mitarbeiter die Übersicht und Chaos wird vermieden."
+    how_title: "Wie funktioniert Clockwork?"
+    how_content: "Clockwork läuft webbasiert. Du kannst von überall auf das Tool zugreifen.
+    Einfach die Webseite im Browser aufrufen, einloggen und fertig!
+    Da es responsive/anpassungsfähig gestaltet ist, funktioniert es auf Deinem Telefon, Tablet oder Computer."
+    feature_title: "Was kann Clockwork?"
+
+    future_feature_title: "geplante Features"
+
+    who_title: "Wer ist Clockwork?"
+    who_content: "Hinter clockwork.io steckt das Entwickler-Team von cileos.com - getreu dem Motto
+    'mad science & serious business' wird das System kontinuierlich und agil an die Bedürfnisse des Marktes angepasst."
+
   footer:
     features: "Features"
     prices: "Preise"

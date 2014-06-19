@@ -5,6 +5,21 @@ en:
     prices: "Prices"
     testing: "Free Trial"
     login: "Log in"
+
+  content:
+    title: "Save Time for pressing matters"
+    subtitle: "Makes your life easier and your employees happier. Makes it run like clockwork. No pun intended."
+    what_title: "What is Clockwork?"
+    what_content: "Clockwork is a tool, where you can ..."
+    how_title: "How does Clockwork work?"
+    how_content: "Clockwork is a tool, where you can ..."
+    feature_title: "How does Clockwork work?"
+
+    future_feature_title:
+    future_feature_content:
+    who_title: "Who is Clockwork?"
+    who_content:
+
   footer:
     features: "Features"
     prices: "Prices"
