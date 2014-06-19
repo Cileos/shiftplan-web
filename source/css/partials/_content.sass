@@ -1,0 +1,67 @@
+#main
+
+  .arrow_border
+    padding-top: 20px
+    position: relative
+    background: white
+    border-bottom: 1px solid $brightgrey
+    width: 40%
+    margin: 0 auto
+
+  .arrow_border:after, .arrow_border:before
+    top: 100%
+    left: 50%
+    border: solid transparent
+    content: " "
+    height: 0
+    width: 0
+    position: absolute
+
+  .arrow_border:after
+    border-top-color: white
+    border-width: 6px
+    margin-left: -6px
+
+  .arrow_border:before
+    border-top-color: $brightgrey
+    border-width: 7px
+    margin-left: -7px
+
+  section
+    +outer-container
+    padding: 20px 0
+    h1
+      color: $blue
+    article
+      +span-columns(6)
+      font-family: $body-text, $georgia
+      font-size: 16px
+  h1
+    font-family: $header-font, $verdana
+    font-weight: normal
+    font-size: 36px
+    color: #333
+    text-transform: uppercase
+    word-spacing: 2px
+    text-align: center
+  h2
+    font-family: $header-font, $verdana
+    font-weight: normal
+    font-size: 24px
+    text-align: center
+    color: #333
+    word-spacing: 2px
+
+.button
+  +border-radius(.5em)
+  padding: .5em 1em
+  color: #fff
+  background: $blue
+  white-space: nowrap
+  text-align: center
+
+.button-orange
+  background: $orange
+
+  &:hover
+    //box-shadow: 0px 3px 0px 0px darken($orange, 20%)
