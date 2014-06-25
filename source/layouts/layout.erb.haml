@@ -1,0 +1,26 @@
+!!! 5
+%html
+  %head
+    %title Clockwork - Smart Workforce Management App
+
+    %meta{charset: "utf-8"}
+    %meta{content: "width=device-width, initial-scale=1.0", name: "viewport"}
+
+    %link{href: "//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css", rel: "stylesheet"}
+
+    = stylesheet_link_tag "styles"
+    = yield_content :styles
+    = javascript_include_tag  "main"
+    = yield_content :js
+
+
+  %body
+    :javascript
+      jQuery('body:not(.js)').addClass('js');
+    %header
+    %nav
+      = partial "partials/nav"
+    #main
+      = yield
+    %footer
+      = partial "partials/footer"

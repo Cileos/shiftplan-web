@@ -1,0 +1,14 @@
+= link_to image_tag("clockwork-logo.png", alt: "Clockwork"), "/#{I18n.locale}"
+%ul
+  %li
+    = link_to t("navigation.features"), "#"
+  %li
+    = link_to t("navigation.prices"), "#"
+  %li
+    = link_to t("navigation.testing"), "#", class: "button button-orange"
+  %li
+    = link_to t("navigation.login"), "#"
+  %li
+    = link_to "EN", "/en/#{path_without_locale}.html", class: "translate"
+    |
+    \#{link_to "DE", "/de/#{path_without_locale}.html", class: "translate"}
