@@ -5,7 +5,11 @@ footer
   color: white
   font-size: 16px
   z-index: 99
-  padding: 10px 10%
+
+nav
+  +outer-container
+  padding-top: 10px
+  padding-bottom: 10px
 
   h2
     font-weight: normal
@@ -23,9 +27,6 @@ footer
   a:hover
     color: $orange
 
-  div
-    +outer-container
-
   ul
     list-style: none
     padding-right: 10px
@@ -36,8 +37,7 @@ footer
       +omega(4n)
 
     li
-      @media only screen and (min-width: 600px)
-        padding-left: 0
+      +media($desktop)
 
         &:last-child
           margin-right: 0

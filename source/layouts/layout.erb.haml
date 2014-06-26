@@ -18,9 +18,9 @@
     :javascript
       jQuery('body:not(.js)').addClass('js');
     %header
-    %nav
-      = partial "partials/nav"
-    #main
+      .wrapper
+        = partial "partials/nav"
+    %main
       = yield
     %footer
       = partial "partials/footer"
