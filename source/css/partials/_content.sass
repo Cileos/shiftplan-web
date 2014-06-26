@@ -15,19 +15,22 @@ main
   section
     +outer-container
     font-family: $body-text, $georgia
-    font-size: 1.5em
+    font-size: 2.0em
+    max-width: 40em
     h1
       color: $blue
 
     article
-      padding: 20px 0
+      padding-top: 40px
+      padding-bottom: 20px
+      img
+        width: 100%
 
       +media($desktop)
         +span-columns(6)
 
       +media($tablet)
         +span-columns(12)
-        margin: 0 2%
   h1
     font-family: $header-font, $verdana
     color: white
