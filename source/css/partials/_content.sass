@@ -33,6 +33,34 @@ main
 
       +media($tablet)
         +span-columns(12)
+
+    .feature
+      h1
+        font-size: 1em
+        text-transform: none
+
+      +media($desktop)
+        +span-columns(4)
+        +omega(4n)
+
+      +media($tablet)
+        +span-columns(12)
+
+    .future-features
+      h1
+        font-size: 1em
+        text-transform: none
+        color: $darkgrey
+        text-align: left
+      p
+        font-size: 0.9em
+      +media($desktop)
+        +span-columns(3)
+        +omega(3n)
+
+      +media($tablet)
+        +span-columns(12)
+
   h1
     font-family: $header-font, $verdana
     color: white
@@ -50,6 +78,9 @@ main
     font-size: 24px
     text-align: center
     word-spacing: 2px
+  h3
+    font-family: $header-font, $verdana
+    font-weight: normal
 
   .arrow_border
     padding-top: 20px
