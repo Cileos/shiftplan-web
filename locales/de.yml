@@ -6,6 +6,9 @@ de:
     testing: "Kostenlos testen"
     login: "Einloggen"
 
+  speechbubbles:
+    planing: "Eine gute Planung ist die beste Voraussetzung für ein gutes Ergebnis!"
+
   content:
     title: "Arbeitsplanung - leicht gemacht"
     subtitle: "für Deine Firma, Dein Projekt, Deine Teams ..."

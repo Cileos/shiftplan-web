@@ -6,6 +6,9 @@ en:
     testing: "Free Trial"
     login: "Log in"
 
+  speechbubbles:
+    planing: "Good Planing ..."
+
   content:
     title: "Save Time for pressing matters"
     subtitle: "Makes your life easier and your employees happier. Makes it run like clockwork. No pun intended."
@@ -39,7 +42,6 @@ en:
       qualification_content: ""
       self_service_title: "Self Service"
       self_service_content: ""
-
 
     who_title: "Who is Clockwork?"
     who_content:

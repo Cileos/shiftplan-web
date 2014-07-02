@@ -1,0 +1,35 @@
+.arrow-box
+  position: absolute
+  top: 350px
+  left: 800px
+  background: $blue
+  border: 2px solid $darkgrey
+  height: auto
+  width: 300px
+  margin: 0 auto
+  padding: 15px
+  color: white
+  font-size: 1.5em
+  font: $sans-serif
+
+.arrow-box:after, .arrow-box:before
+  right: 100%
+  top: 50%
+  border: solid transparent
+  content: " "
+  height: 0
+  width: 0
+  position: absolute
+  pointer-events: none
+
+.arrow-box:after
+  border-color: rgba(136, 183, 213, 0)
+  border-right-color: $blue
+  border-width: 10px
+  margin-top: -10px
+
+.arrow-box:before
+  border-color: rgba(194, 225, 245, 0)
+  border-right-color: $darkgrey
+  border-width: 12px
+  margin-top: -12px
