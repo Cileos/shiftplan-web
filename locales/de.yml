@@ -22,7 +22,7 @@ de:
       flexible: "Flexibel"
       flexible_content: "Flexible Strukturierung entsprechend Deines Unternehmens mit Hilfe von Organisationen, Plänen, Arbeitsbereichen und Qualifikationen."
       calender: "Kalender-Export"
-      calender_content: "Importiere Deine Clockwork Termine in andere Kalenderapps auf Deinem Handy, Tablet oder Computer. So bist Du auch unterwegs immer auf dem neuesten Stand.t"
+      calender_content: "Importiere Deine Clockwork Termine in andere Kalenderapps auf Deinem Handy, Tablet oder Computer. So bist Du auch unterwegs immer auf dem neuesten Stand."
       report: "Auswertung"
       report_content: "Lass Dir anzeigen, wer wann, wieviele Stunden, woran gearbeitet hat. Auch downloadbar als csv-und Excel-Datei."
       conflicts: "Konflikte"
@@ -35,13 +35,13 @@ de:
     future_feature:
       title: "geplante Features"
       trading_shifts_title: "Schichtentausch"
-      trading_shifts_content: "unter den Kollegen sorgt für mehr Flexibilität"
+      trading_shifts_content: "unter den Kollegen sorgt für mehr Flexibilität."
       message_title: "MessageHub"
-      message_content: "für noch bessere Kommunikation"
+      message_content: "für noch bessere Kommunikation."
       qualification_title: "Qualifikationsfilter"
-      qualification_content: "zeigt für die jeweilige Schicht Mitarbeiter gefiltert nach Qualifikationen an"
+      qualification_content: "zeigt für die jeweilige Schicht Mitarbeiter gefiltert nach Qualifikationen an."
       self_service_title: "Self Service"
-      self_service_content: "selbständige Anfrage zur Schichtenbelegung von Mitarbeitern"
+      self_service_content: "selbständige Anfrage zur Schichtenbelegung von Mitarbeitern."
 
     who_title: "Wer ist Clockwork?"
     who_content: "Hinter clockwork.io steckt das Entwickler-Team von cileos.com - getreu dem Motto
