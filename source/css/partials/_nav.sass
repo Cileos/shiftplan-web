@@ -4,8 +4,12 @@ $tablet: new-breakpoint(max-width 768px)
 header
   background-color: $blue
   padding: 0.5em 1em
-  +clearfix()
   text-align: center
+  position: fixed
+  left: 0
+  top: 0
+  width: 100%
+  z-index: 999
 
   .wrapper
     padding: 10px 5%
