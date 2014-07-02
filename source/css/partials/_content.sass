@@ -10,16 +10,22 @@ main
     display: block
     margin: 0 auto
 
+    +media($tablet)
+      width: 100%
+
   section
     +outer-container
     font-family: $sans-serif
     font-size: 1.8em
     max-width: 40em
+    padding-top: 40px
     h1
+      color: $blue
+    h2
       color: $blue
 
     article
-      padding-bottom: 20px
+      padding: 20px 5px 0 5px
       img
         width: 100%
 
@@ -30,10 +36,14 @@ main
         +span-columns(12)
 
     .feature
+      padding: 0 5px 20px 5px
       text-align: center
       h1
         font-size: 1em
         text-transform: none
+        background-color: $brightgrey
+        padding: 6px
+        border-radius: 8px
       i
         padding-top: 40px
         font-size: 58px
@@ -45,21 +55,25 @@ main
         +omega(4n)
 
       +media($tablet)
-        +span-columns(6)
+        +span-columns(12)
+
 
     .future-features
+      padding: 0 5px 20px 5px
       h1
         font-size: 1em
         text-transform: none
-        color: $darkgrey
         text-align: left
+        color: $darkgrey
       p
         font-size: 0.9em
+
       +media($desktop)
         +span-columns(3)
         +omega(3n)
 
       +media($tablet)
+        +span-columns(12)
 
   h1
     font-family: $header-font, $verdana
@@ -77,12 +91,9 @@ main
     font-size: 24px
     text-align: center
     word-spacing: 2px
-  h3
-    font-family: $header-font, $verdana
-    font-weight: normal
 
   .arrow_border
-    padding-top: 20px
+    padding: 70px 0 30px 0
     position: relative
     background: white
     border-bottom: 1px solid lighten($grey, 40%)
