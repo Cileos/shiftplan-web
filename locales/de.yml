@@ -17,9 +17,31 @@ de:
     how_content: "Clockwork läuft webbasiert. Du kannst von überall auf das Tool zugreifen.
     Einfach die Webseite im Browser aufrufen, einloggen und fertig!
     Da es responsive/anpassungsfähig gestaltet ist, funktioniert es auf Deinem Telefon, Tablet oder Computer."
-    feature_title: "Was kann Clockwork?"
+    feature:
+      title: "Was kann Clockwork?"
+      flexible: "Flexibel"
+      flexible_content: "Flexible Strukturierung entsprechend Deines Unternehmens mit Hilfe von Organisationen, Plänen, Arbeitsbereichen und Qualifikationen."
+      calender: "Kalender-Export"
+      calender_content: "Importiere Deine Clockwork Termine in andere Kalenderapps auf Deinem Handy, Tablet oder Computer. So bist Du auch unterwegs immer auf dem neuesten Stand.t"
+      report: "Auswertung"
+      report_content: "Lass Dir anzeigen, wer wann, wieviele Stunden, woran gearbeitet hat. Auch downloadbar als csv-und Excel-Datei."
+      conflicts: "Konflikte"
+      conflicts_content: "Nie wieder Doppelbelegung! Ist ein Mitarbeiter im Urlaub oder ist die Schicht schon belegt? Du wirst darauf hingewiesen."
+      documents: "Dokumente teilen"
+      documents_content: "Du hast die Möglichkeit Dokumente hochzuladen. Diese stehen dann Deinen  Mitarbeitern und Kollegen zur Verfügung."
+      communication: "Kommunikation"
+      communication_content: "Zur internen Kommunikation stehen Blogposts zu Verfügung. Außerdem können die Mitarbeiter Schichten kommentieren."
 
-    future_feature_title: "geplante Features"
+    future_feature:
+      title: "geplante Features"
+      trading_shifts_title: "Schichtentausch"
+      trading_shifts_content: "unter den Kollegen sorgt für mehr Flexibilität"
+      message_title: "MessageHub"
+      message_content: "für noch bessere Kommunikation"
+      qualification_title: "Qualifikationsfilter"
+      qualification_content: "zeigt für die jeweilige Schicht Mitarbeiter gefiltert nach Qualifikationen an"
+      self_service_title: "Self Service"
+      self_service_content: "selbständige Anfrage zur Schichtenbelegung von Mitarbeitern"
 
     who_title: "Wer ist Clockwork?"
     who_content: "Hinter clockwork.io steckt das Entwickler-Team von cileos.com - getreu dem Motto

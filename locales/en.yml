@@ -13,10 +13,34 @@ en:
     what_content: "Clockwork is a tool, where you can ..."
     how_title: "How does Clockwork work?"
     how_content: "Clockwork is a tool, where you can ..."
-    feature_title: "How does Clockwork work?"
 
-    future_feature_title:
-    future_feature_content:
+    feature:
+      title: "How does Clockwork work?"
+      flexible: "Flexible"
+      flexible_content: ""
+      calender: "Calender Export"
+      calender_content: ""
+      report: "Report"
+      report_content: ""
+      conflicts: "Conflicts"
+      conflicts_content: ""
+      documents: "Share Documents"
+      documents_content: ""
+      communication: "Communication"
+      communication_content: ""
+
+    future_feature:
+      title: "planed features"
+      trading_shifts_title: "Trading Shifts"
+      trading_shifts_content: ""
+      message_title: "Message Hub"
+      message_content: ""
+      qualification_title: "Qualificationfilter"
+      qualification_content: ""
+      self_service_title: "Self Service"
+      self_service_content: ""
+
+
     who_title: "Who is Clockwork?"
     who_content:
 
