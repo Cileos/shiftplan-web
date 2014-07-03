@@ -1,5 +1,5 @@
 footer
-  height: 300px
+  min-height: 300px
   background-color: $footergrey
   border-top: 30px solid $grey
   color: white
@@ -15,6 +15,9 @@ nav
     +span-columns(4)
     &:last-child
       margin-right: 0
+
+    +media($tablet)
+      +span-columns(12)
 
     h1
       font-weight: normal
@@ -54,3 +57,6 @@ nav
       height: 0
       width: 80%
       margin-bottom: 20px
+
+      +media($tablet)
+        width: 90%
