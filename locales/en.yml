@@ -58,6 +58,9 @@ en:
     who_content: ""
 
   footer:
+    sitemap: "Sitemap"
+    contact: "Contact"
+    social: "Social"
     features: "Features"
     prices: "Prices"
     testing: "Free Trial"

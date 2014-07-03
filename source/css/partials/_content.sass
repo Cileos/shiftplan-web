@@ -12,12 +12,39 @@ main
     +media($tablet)
       background: none
 
-  img
-    display: block
-    margin: 0 auto
+  h1
+    font-family: $header-font, $verdana
+    color: white
+    font-weight: normal
+    font-size: 36px
+    text-transform: uppercase
+    word-spacing: 2px
+    text-align: center
+    padding-top: 40px
 
-    +media($tablet)
-      width: 100%
+  h2
+    color: white
+    font-family: $header-font, $verdana
+    font-weight: normal
+    font-size: 24px
+    text-align: center
+    word-spacing: 2px
+  h3
+    font-family: $header-font, $verdana
+    text-align: center
+    font-weight: normal
+
+  #screen_image
+    position: relative
+    background: url("../images/dark-screen.gif")
+    background-image: no-repeat
+    background-size: 100%
+    width: 100%
+    +outer-container
+
+    +media($desktop)
+      +outer-container
+      height: 600px
 
   section
     +outer-container
@@ -52,6 +79,8 @@ main
     .feature
       padding: 0 5px 20px 5px
       text-align: center
+      +span-columns(12)
+
       h1
         font-size: 1em
         text-transform: none
@@ -68,12 +97,9 @@ main
         +span-columns(4)
         +omega(4n)
 
-      +media($tablet)
-        +span-columns(12)
-
-
     .future-features
       padding: 0 5px 20px 5px
+      +span-columns(12)
       h1
         font-size: 1em
         text-transform: none
@@ -87,17 +113,13 @@ main
         +span-columns(4)
         +omega(4n)
 
-      +media($tablet)
-        +span-columns(12)
-
     .future-features-speachbubble
       padding: 0 5px 20px 5px
+      +span-columns(12)
+
       +media($desktop)
         +span-columns(8)
         +omega()
-
-      +media($tablet)
-        +span-columns(12)
 
     .prices
       background-color: $brightgrey
@@ -105,6 +127,7 @@ main
       text-align: center
       border-radius: 8px
       margin-bottom: 90px
+      +span-columns(12)
 
       i
         font-size: 68px
@@ -125,28 +148,4 @@ main
         +span-columns(4)
         +omega()
 
-      +media($tablet)
-        +span-columns(12)
-        +omega()
 
-  h1
-    font-family: $header-font, $verdana
-    color: white
-    font-weight: normal
-    font-size: 36px
-    text-transform: uppercase
-    word-spacing: 2px
-    text-align: center
-    padding-top: 40px
-
-  h2
-    color: white
-    font-family: $header-font, $verdana
-    font-weight: normal
-    font-size: 24px
-    text-align: center
-    word-spacing: 2px
-  h3
-    font-family: $header-font, $verdana
-    text-align: center
-    font-weight: normal
