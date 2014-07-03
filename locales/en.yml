@@ -44,8 +44,18 @@ en:
       self_service_title: "Self Service"
       self_service_content: ""
 
+    how_much_title: "How much is Clockwork?"
+    how_much_content: "30 Days for a trial version.
+    And no we don't need your credit card!"
+    how_much_solar: "Up to 19 employees:"
+    how_much_solar_price: "29 Euro"
+    how_much_steam: "Up to 49 employees:"
+    how_much_steam_price: "79 Euro"
+    how_much_atomic: "Up to 99 employees:"
+    how_much_atomic_price: "129 Euro"
+
     who_title: "Who is Clockwork?"
-    who_content:
+    who_content: ""
 
   footer:
     features: "Features"

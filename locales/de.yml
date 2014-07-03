@@ -47,6 +47,16 @@ de:
       self_service_title: "Self Service"
       self_service_content: "selbständige Anfrage zur Schichtenbelegung von Mitarbeitern."
 
+    how_much_title: "Wieviel kostet Clockwork?"
+    how_much_content: "30 Tage um Clockwork kostenlos auszutesten. Versuch es doch!
+    <br> Und nein, wir brauchen Deine Kreditkarte nicht."
+    how_much_solar: "Bis zu 19 Mitarbeiter:"
+    how_much_solar_price: "29 Euro"
+    how_much_steam: "Bis zu 49 Mitarbeiter:"
+    how_much_steam_price: "79 Euro"
+    how_much_atomic: "Bis zu 99 Mitarbeiter:"
+    how_much_atomic_price: "129 Euro"
+
     who_title: "Wer ist Clockwork?"
     who_content: "Hinter clockwork.io steckt das Entwickler-Team von cileos.com - getreu dem Motto
     'mad science & serious business' wird das System kontinuierlich und agil an die Bedürfnisse des Marktes angepasst."
