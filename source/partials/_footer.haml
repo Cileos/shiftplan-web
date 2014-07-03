@@ -1,28 +1,33 @@
 %nav
-  %h2
-    Sitemap
-  %ul
-    %li
-      = link_to t("footer.features"), "#features"
-    %li
-      = link_to t("footer.prices"), "#"
-    %li
-      = link_to t("footer.testing"), "#"
-    %li
-      = link_to t("footer.login"), "#"
-  %h2
-    Kontakt
-  %ul
-    %li
-      %i#icon.fa.fa-phone
-      +49 (0) 331 28 05 454
-    %br
+  %section
+    %h1
+      Sitemap
+    %hr
+    %ul
       %li
-        %i#icon.fa.fa-envelope
-        contact@clockwork.io
-  %h2
-    Social
-  %ul
-    %li#social
-      = link_to "https://github.com/Cileos/shiftplan", target: '_blank' do
-        %i.fa.fa-github
+        = link_to t("footer.features"), "#features"
+      %li
+        = link_to t("footer.prices"), "#"
+      %li
+        = link_to t("footer.testing"), "https://app.clockwork.io/signup"
+      %li
+        = link_to t("footer.login"), "https://app.clockwork.io/users/sign_in"
+  %section
+    %h1
+      Kontakt
+    %hr
+    %ul
+      %li
+        %i.icon.fa.fa-phone
+        +49 (0) 331 28 05 454
+      %br
+      %li
+        = link_to "mailto:contact@clockwork.io" do
+          %i.icon.fa.fa-envelope
+          contact@clockwork.io
+  %section
+    %h1
+      Social
+    %hr
+    = link_to "https://github.com/Cileos/shiftplan", target: '_blank' do
+      %i.social.fa.fa-github

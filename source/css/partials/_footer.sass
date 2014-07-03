@@ -1,6 +1,6 @@
 footer
   height: 300px
-  background-color: $darkgrey
+  background-color: $footergrey
   border-top: 30px solid $grey
   color: white
   font-size: 16px
@@ -11,41 +11,46 @@ nav
   padding-top: 10px
   padding-bottom: 10px
 
-  h2
-    font-weight: normal
-    padding-bottom: 10px
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5)
-    color: rgba(255, 255, 255, 0.5)
-    text-align: center
-
-  a
-    padding-left: 5px
-    text-decoration: none
-    @include transition (color 0.2s ease-in-out)
-    color: rgba(255, 255, 255, 1)
-
-  a:hover
-    color: $orange
-
-  ul
-    list-style: none
-    padding-right: 10px
-    margin-top: 27px
-    +span-columns(3)
-
+  section
+    +span-columns(4)
     &:last-child
-      +omega(4n)
+      margin-right: 0
+
+    h1
+      font-weight: normal
+      color: rgba(255, 255, 255, 0.5)
+      padding-left: 45px
+
+    a
+      text-decoration: none
+      @include transition (color 0.2s ease-in-out)
+      color: rgba(255, 255, 255, 1)
+
+    a:hover
+      color: $orange
+
+    ul
+      list-style: none
 
     li
       +media($desktop)
+        padding-left: 6px
 
         &:last-child
           margin-right: 0
 
-    i#icon
-      font-size: 18px
-      padding-right: 10px
+      i.icon
+        font-size: 18px
+        padding-right: 10px
+        padding-left: 5px
 
-    #social
-      font-size: 26px
-      text-align: center
+    i.social
+      font-size: 36px
+      padding-left: 46px
+
+    hr
+      border: 0
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3)
+      height: 0
+      width: 80%
+      margin-bottom: 20px
