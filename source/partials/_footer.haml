@@ -1,8 +1,7 @@
 %nav
+  %h2
+    Sitemap
   %ul
-    %li
-      %h2
-        Sitemap
     %li
       = link_to t("footer.features"), "#features"
     %li
@@ -11,18 +10,9 @@
       = link_to t("footer.testing"), "#"
     %li
       = link_to t("footer.login"), "#"
+  %h2
+    Kontakt
   %ul
-    %li
-      %h2
-        Support
-    %li
-      = link_to t("footer.faq"), "#"
-    %li
-      = link_to t("footer.blog"), "#"
-  %ul
-    %li
-      %h2
-        Kontakt
     %li
       %i#icon.fa.fa-phone
       +49 (0) 331 28 05 454
@@ -30,11 +20,9 @@
       %li
         %i#icon.fa.fa-envelope
         contact@clockwork.io
+  %h2
+    Social
   %ul
-    %li
-      %h2
-        Social
     %li#social
-      %i.fa.fa-twitter
-      %i.fa.fa-facebook
-      %i.fa.fa-github
+      = link_to "https://github.com/Cileos/shiftplan", target: '_blank' do
+        %i.fa.fa-github
