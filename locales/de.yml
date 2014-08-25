@@ -24,17 +24,23 @@ de:
     feature:
       title: "Was kann Clockwork?"
       flexible: "Flexibel"
-      flexible_content: "Flexible Strukturierung entsprechend Deines Unternehmens mit Hilfe von Organisationen, Plänen, Arbeitsbereichen und Qualifikationen."
+      flexible_content: "Flexible Strukturierung entsprechend Deines Unternehmens
+      mit Hilfe von Organisationen, Plänen, Arbeitsbereichen und Qualifikationen."
       calender: "Kalender-Export"
-      calender_content: "Importiere Deine Clockwork Termine in andere Kalenderapps auf Deinem Handy, Tablet oder Computer. So bist Du auch unterwegs immer auf dem neuesten Stand."
+      calender_content: "Importiere Deine Clockwork Termine in andere Kalenderapps
+      auf Deinem Handy, Tablet oder Computer. So bist Du auch unterwegs immer auf dem neuesten Stand."
       report: "Auswertung"
-      report_content: "Lass Dir anzeigen, wer wann, wieviele Stunden, woran gearbeitet hat. Auch downloadbar als csv-und Excel-Datei."
+      report_content: "Lass Dir anzeigen, wer wann, wieviele Stunden, woran
+      gearbeitet hat. Auch downloadbar als csv-und Excel-Datei."
       conflicts: "Konflikte"
-      conflicts_content: "Nie wieder Doppelbelegung! Ist ein Mitarbeiter im Urlaub oder ist die Schicht schon belegt? Du wirst darauf hingewiesen."
+      conflicts_content: "Nie wieder Doppelbelegung! Ist ein Mitarbeiter im Urlaub
+      oder ist die Schicht schon belegt? Du wirst darauf hingewiesen."
       documents: "Dokumente teilen"
-      documents_content: "Du hast die Möglichkeit Dokumente hochzuladen. Diese stehen dann Deinen  Mitarbeitern und Kollegen zur Verfügung."
+      documents_content: "Du hast die Möglichkeit Dokumente hochzuladen.
+      Diese stehen dann Deinen  Mitarbeitern und Kollegen zur Verfügung."
       communication: "Kommunikation"
-      communication_content: "Zur internen Kommunikation stehen Blogposts zu Verfügung. Außerdem können die Mitarbeiter Schichten kommentieren."
+      communication_content: "Zur internen Kommunikation stehen Blogposts zu
+      Verfügung. Außerdem können die Mitarbeiter Schichten kommentieren."
 
     future_feature:
       title: "geplante Features"
@@ -43,7 +49,8 @@ de:
       message_title: "MessageHub"
       message_content: "für noch bessere Kommunikation."
       qualification_title: "Qualifikationsfilter"
-      qualification_content: "zeigt für die jeweilige Schicht Mitarbeiter gefiltert nach Qualifikationen an."
+      qualification_content: "zeigt für die jeweilige Schicht Mitarbeiter gefiltert
+      nach Qualifikationen an."
       self_service_title: "Self Service"
       self_service_content: "selbständige Anfrage zur Schichtenbelegung von Mitarbeitern."
 

@@ -7,42 +7,52 @@ en:
     login: "Log in"
 
   speechbubbles:
-    planning: "Good Planning ..."
-    convinced: "Convinced ..."
+    planning: "Good planning for a good result!"
+    convinced: "Convinced? <br>Try Clockwork for free!"
 
   content:
     title: "Save Time for pressing matters"
-    subtitle: "Makes your life easier and your employees happier. Makes it run like clockwork. No pun intended."
+    subtitle: "Makes your life easier and your employees happier.
+    Makes it run like clockwork. No pun intended."
     what_title: "What is Clockwork?"
-    what_content: "Clockwork is a tool, where you can ..."
+    what_content: "Clockwork is a tool, where you can create employees and assign
+    their shifts in weekly plans. On a weekly basis or limited.<br><br>
+    So you and your employees keep the track."
     how_title: "How does Clockwork work?"
-    how_content: "Clockwork is a tool, where you can ..."
+    how_content: "Clockwork is web-based. You have access from everywhere.
+    Just call the website, login and done! <br>It works on you home computer, phone or tablet."
 
     feature:
       title: "How does Clockwork work?"
       flexible: "Flexible"
-      flexible_content: ""
+      flexible_content: "You are able to use a flexible structure according to your company.
+      With the help of organization, plans, work areas and qualifications."
       calender: "Calender Export"
-      calender_content: ""
+      calender_content: "Import your Clockwork appointments in other calendar
+      apps on your phone, tablet or computer.So you're on the go always up to date."
       report: "Report"
-      report_content: ""
+      report_content: "You can see who worked on what, when and how many hours.
+      Also downloadable as a CSV and Excel file."
       conflicts: "Conflicts"
-      conflicts_content: ""
+      conflicts_content: "Never again double occupancy. In case an employee is
+      on vacation or the shift is already taken? You will be notified."
       documents: "Share Documents"
-      documents_content: ""
+      documents_content: "You have the ability to upload documents. Your
+      employees and colleagues have access to them."
       communication: "Communication"
-      communication_content: ""
+      communication_content: "For internal communication you can use blog posts.
+      Also, employees can comment on shifts."
 
     future_feature:
       title: "planed features"
-      trading_shifts_title: "Trading Shifts"
-      trading_shifts_content: ""
+      trading_shifts_title: "Shift-Trading"
+      trading_shifts_content: "with other employee gives you even more flexibility."
       message_title: "Message Hub"
-      message_content: ""
+      message_content: "for even better communication."
       qualification_title: "Qualificationfilter"
-      qualification_content: ""
+      qualification_content: "based resource matching."
       self_service_title: "Self Service"
-      self_service_content: ""
+      self_service_content: "indepenend planning on vacancies."
 
     how_much_title: "How much is Clockwork?"
     how_much_content: "30 Days for a trial version.
@@ -55,7 +65,7 @@ en:
     how_much_atomic_price: "129 Euro"
 
     who_title: "Who is Clockwork?"
-    who_content: ""
+    who_content: "The developers of cileos.com work on clockwork.io."
 
   footer:
     sitemap: "Sitemap"
