@@ -20,9 +20,12 @@ nav
       +span-columns(12)
 
     h1
+      font-family: $sans-serif, $verdana
       font-weight: normal
       color: rgba(255, 255, 255, 0.5)
       padding-left: 45px
+      font-size: 1.8em
+      padding-top: 20px
 
     a
       text-decoration: none
@@ -36,11 +39,10 @@ nav
       list-style: none
 
     li
-      +media($desktop)
-        padding-left: 6px
+      padding-left: 10px
 
-        &:last-child
-          margin-right: 0
+      &:last-child
+        margin-right: 0
 
       i.icon
         font-size: 18px

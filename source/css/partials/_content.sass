@@ -7,7 +7,7 @@ main
     background-repeat: no-repeat
     background-size: 100%
     width: 100%
-    margin-bottom: 90px
+    margin-bottom: 20%
     margin-top: 80px
 
     +media($tablet)
@@ -17,11 +17,11 @@ main
     font-family: $header-font, $verdana
     color: white
     font-weight: normal
-    font-size: 36px
     text-transform: uppercase
     word-spacing: 2px
     text-align: center
-    padding-top: 40px
+    padding: 60px 0 20px 0
+    font-size: 2.9em
 
     +media($tablet)
       color: blue
@@ -30,10 +30,9 @@ main
     color: white
     font-family: $header-font, $verdana
     font-weight: normal
-    font-size: 24px
     text-align: center
     word-spacing: 2px
-  h3
+  h6
     font-family: $header-font, $verdana
     text-align: center
     font-weight: normal
@@ -44,24 +43,23 @@ main
     background-repeat: no-repeat
     background-size: 100%
     height: 100%
-    width: 100%
     +outer-container
 
     +media($desktop)
       +outer-container
-      height: 600px
+      height: 800px
 
   section
     +outer-container
-    font-size: 1.8em
+    font-size: 1.3em
     max-width: 40em
     h1
       color: $blue
+      font-size: 2em
     h2
       color: $blue
       text-transform: uppercase
-      font-size: 32px
-      padding-bottom: 40px
+      padding: 50px 0 30px 0
 
     a.button
       +span-columns(6)
@@ -92,6 +90,7 @@ main
         background-color: $brightgrey
         padding: 6px
         border-radius: 8px
+        margin: 30px 0 10px 0
       i
         padding-top: 40px
         font-size: 58px
@@ -114,6 +113,7 @@ main
         background-color: $brightgrey
         padding: 6px
         border-radius: 8px
+        margin: 30px 0 10px 0
 
       +media($desktop)
         +span-columns(4)
@@ -146,6 +146,7 @@ main
         padding: 6px
         border-radius: 8px
         background-color: white
+        margin: 20px 0
       p.price
         padding-bottom: 10px
         font-weight: bold
