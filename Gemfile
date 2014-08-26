@@ -13,4 +13,5 @@ gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 gem 'bitters'
 gem 'bourbon'
 gem 'neat'
-gem 'refills'
+gem "jquery-middleman"
+#gem 'refills'
