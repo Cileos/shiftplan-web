@@ -18,9 +18,7 @@
   %body
     :javascript
       jQuery('body:not(.js)').addClass('js');
-    %header
-      .wrapper
-        = partial "partials/nav"
+    = partial "partials/nav"
     %main
       = yield
     %footer
