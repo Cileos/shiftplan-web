@@ -65,17 +65,18 @@ de:
       Schichttauschwünsche und die Übernahme von Diensten können erfolgen, ohne
       dass der Planer involviert ist."
       time_tracking_title: "Mobile Stechuhr"
-      time_tracking_content: "für den Soll-Ist-Zeiten Abgleich verrät dir
-      wieviele Stunden Deine Mitarbeiter tatsächlich gearbeitet haben. Bei
+      time_tracking_content: "Für den Soll-Ist-Zeiten Abgleich verrät Dir
+      diese, wieviele Stunden Deine Mitarbeiter tatsächlich gearbeitet haben. Bei
       Dienstbeginn starten Deine Mitarbeiter die Zeiterfassung und stoppen diese,
-      wenn sie ihre Arbeit beenden ganz einfach auf ihrem Telefon."
+      wenn sie ihre Arbeit beenden, ganz einfach auf ihrem Telefon."
       reward_system_title: "Kooperation lohnt sich"
       reward_system_content: "Deine Mitarbeiter können ihre Kollegen für
       besonders kollegiales Verhalten belohnen, indem sie bestimme Aktionen wie
       spontanes Aushelfen bei kurzfristigen Dienstausfällen positiv bewerten."
 
     how_much_title: "Wieviel kostet Clockwork?"
-    how_much_content: "30 Tage um Clockwork kostenlos auszutesten. Versuch es doch!
+    how_much_content: "Bevor du dich damit beschäftigen musst, teste Clockwork
+    30 Tage kostenlos.
     <br> Und nein, wir brauchen Deine Kreditkarte nicht."
     how_much_solar: "Bis zu 19 Mitarbeiter:"
     how_much_solar_price: "29 Euro"
