@@ -73,8 +73,8 @@ en:
       on our website in real time."
       reward_system_title: "Social Reward System"
       reward_system_content: "Your employees can reward their colleagues by
-      rating certain actions, like spontaneously helping out for an
-      unstaffed shift, positively."
+      positively rating certain actions like spontaneously helping out for an
+      unstaffed shift."
 
     how_much_title: "How much is Clockwork?"
     how_much_content: "30 Days for a trial version.
@@ -87,7 +87,10 @@ en:
     how_much_atomic_price: "129 Euro"
 
     who_title: "Who is Clockwork?"
-    who_content: "The developers of cileos.com work on clockwork.io."
+    who_content: "The team of <a href='http://cileos.com'>Cileos.com</a>
+    develops Clockwork.io.<br><br>
+    According to our motto \"Mad Science & Serious Business\" Clockwork gets
+    constantly improved and adopted to the needs of our customers."
 
   footer:
     sitemap: "Sitemap"

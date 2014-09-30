@@ -94,8 +94,10 @@ de:
     how_much_atomic_price: "129 Euro"
 
     who_title: "Wer ist Clockwork?"
-    who_content: "Hinter clockwork.io steckt das Entwickler-Team von cileos.com - getreu dem Motto
-    'mad science & serious business' wird das System kontinuierlich und agil an die Bedürfnisse des Marktes angepasst."
+    who_content: "Das Team von <a href='http://cileos.com'>Cileos.com</a> entwickelt
+    Clockwork.io.<br><br>
+    Getreu dem Motto \"Mad Science & Serious Business\" wird das System
+    kontinuierlich und agil an die Bedürfnisse unserer Kunden angepasst."
 
   footer:
     sitemap: "Sitemap"
