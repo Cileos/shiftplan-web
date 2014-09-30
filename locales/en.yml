@@ -54,7 +54,7 @@ en:
       plans or projects."
       plan_templates: "Plan templates"
       plan_templates_content: "Save time by defining plan templates for your
-      recurring planning tasks. Apply the templates to your plans whenever you
+      reoccurring planning tasks. Apply the templates to your plans whenever you
       need them again."
       alerts: "Alerts"
       alerts_content: "Never miss any of your working shifts again. Clockwork
@@ -62,20 +62,19 @@ en:
 
     future_feature:
       title: "Upcoming Features"
-      self_service_title: "Selbstbedienung"
-      self_service_content: "Binde Deine Mitarbeiter in den Planungsprozess ein
-      und übertrage ihnen einen gewissen Teil der Verantwortung.
-      Schichttauschwünsche und die Übernahme von Diensten können erfolgen, ohne
-      dass der Planer involviert ist."
-      time_tracking_title: "Mobile Stechuhr"
-      time_tracking_content: "Für den Soll-Ist-Zeiten Abgleich verrät Dir
-      diese, wieviele Stunden Deine Mitarbeiter tatsächlich gearbeitet haben. Bei
-      Dienstbeginn starten Deine Mitarbeiter die Zeiterfassung und stoppen diese,
-      wenn sie ihre Arbeit beenden, ganz einfach auf ihrem Telefon."
-      reward_system_title: "Kooperation lohnt sich"
-      reward_system_content: "Deine Mitarbeiter können ihre Kollegen für
-      besonders kollegiales Verhalten belohnen, indem sie bestimme Aktionen wie
-      spontanes Aushelfen bei kurzfristigen Dienstausfällen positiv bewerten."
+      self_service_title: "Self-Service"
+      self_service_content: "Plug your team into the planning process by letting
+      them trade their shifts independently. Empowering your employees will
+      decentralize the planning and decrease the time managers usually spend to
+      get their work done."
+      time_tracking_title: "Mobile Time-Clocking"
+      time_tracking_content: "Track the attendance of your staff easily. Your
+      employees can clock in and clock out via our mobile app, text message or
+      on our website in real time."
+      reward_system_title: "Social Reward System"
+      reward_system_content: "Your employees can reward their colleagues by
+      rating certain actions, like spontaneously helping out for an
+      unstaffed shift, positively."
 
     how_much_title: "How much is Clockwork?"
     how_much_content: "30 Days for a trial version.
