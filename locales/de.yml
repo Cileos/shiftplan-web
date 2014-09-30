@@ -14,18 +14,18 @@ de:
     title: "Arbeitsplanung - leicht gemacht"
     subtitle: "für Deine Firma, Dein Projekt, Deine Teams ..."
     what_title: "Was ist Clockwork?"
-    what_content: "Clockwork ist eine Website, auf der Du Mitarbeiter anlegst
-    und deren Arbeitsschichten in Plänen einteilen kannst. So behalten Du und
-    Deine Mitarbeiter die Übersicht und alle haben jederzeit Zugriff auf die
-    aktuelle Planung."
+    what_content: "Clockwork ist eine Website, auf der Du die Arbeitsschichten
+    deiner Mitarbeiter planen kannst. So behalten Du und Deine Mitarbeiter die
+    Übersicht. Alle haben jederzeit Zugriff auf die aktuelle Planung."
     what_research: "Laut unserer Recherchen werden durchschnittlich 8 Stunden
     im Monat benötigt, um ein Team von 20 Mitarbeitern zu planen. Clockwork kann
     diese Zeit um 50 Prozent reduzieren."
     how_title: "Wie funktioniert Clockwork?"
     how_content: "Clockwork ist eine Webapplikation. Du kannst von überall auf
     Clockwork zugreifen. Einfach die Webseite im Browser aufrufen, einloggen und
-    fertig! Es funktioniert auf allen mobilen Geräten wie Deinem Smart Phone
-    oder Tablet."
+    fertig! <br><br>
+    Es funktioniert auf allen mobilen Geräten wie Deinem Smart Phone oder
+    Tablet."
     feature:
       title: "Was kann Clockwork?"
       flexible: "Flexibel"
