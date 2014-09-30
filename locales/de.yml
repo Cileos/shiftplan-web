@@ -83,15 +83,20 @@ de:
       spontanes Aushelfen bei kurzfristigen Dienstausfällen positiv bewerten."
 
     how_much_title: "Wieviel kostet Clockwork?"
-    how_much_content: "Bevor du dich damit beschäftigen musst, teste Clockwork
-    30 Tage kostenlos.
-    <br> Und nein, wir brauchen Deine Kreditkarte nicht."
+    how_much_content: "Zur Zeit gibt es Clockwork nur als Testversion. Das
+    bedeutet für dich, dass du die Software erstmal kostenlos und zeitlich
+    unbegrenzt testen kannst. Es steht bisher noch kein genauer Termin fest,
+    wann Clockwork kostenpflichtig wird. Wir informieren dich dann darüber und
+    du kannst dich in Ruhe entscheiden, ob du Clockwork weiterhin nutzen
+    möchtest."
     how_much_solar: "Bis zu 19 Mitarbeiter:"
     how_much_solar_price: "29 Euro"
     how_much_steam: "Bis zu 49 Mitarbeiter:"
     how_much_steam_price: "79 Euro"
     how_much_atomic: "Bis zu 99 Mitarbeiter:"
     how_much_atomic_price: "129 Euro"
+    how_much_free_preview: "Das ist eine kostenlose Testversion von Clockwork"
+    convinced: "Bist du neugierig geworden?"
 
     who_title: "Wer ist Clockwork?"
     who_content: "Das Team von <a href='http://cileos.com'>Cileos.com</a> entwickelt

@@ -155,3 +155,21 @@ main
         margin: 30px 10px
         +span-columns(4)
         +omega()
+
+  #beta-info
+    position: relative
+    bottom: 5.5em
+    font-size: 1.5em
+    left: -2.5%
+    width: 105%
+    background: $blue
+    z-index: 999
+    color: #fff
+    text-align: center
+    border-bottom: 3px solid darken($blue, 25%)
+    opacity: 0.65
+    @include transform(rotate(-5deg))
+    height: 50px
+
+  p.centered
+    text-align: center

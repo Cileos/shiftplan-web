@@ -94,24 +94,22 @@
   %h2
     %i.fa.fa-gears
     = t("content.future_feature.title")
-  .future-features
-    %h1
-      = t("content.future_feature.self_service_title")
-    %p
-      = t("content.future_feature.self_service_content")
-  .future-features
-    %h1
-      = t("content.future_feature.time_tracking_title")
-    %p
-      = t("content.future_feature.time_tracking_content")
-  .future-features
-    %h1
-      = t("content.future_feature.reward_system_title")
-    %p
-      = t("content.future_feature.reward_system_content")
-  .future-features-speachbubble
-    .arrow-up-box
-      = t("speechbubbles.convinced")
+  .features
+    .feature
+      %h1
+        = t("content.future_feature.self_service_title")
+      %p
+        = t("content.future_feature.self_service_content")
+    .feature
+      %h1
+        = t("content.future_feature.time_tracking_title")
+      %p
+        = t("content.future_feature.time_tracking_content")
+    .feature
+      %h1
+        = t("content.future_feature.reward_system_title")
+      %p
+        = t("content.future_feature.reward_system_content")
 
 #prices
 .arrow-border
@@ -119,7 +117,7 @@
 %section
   %h1
     = t("content.how_much_title")
-  %h6
+  %p.centered
     = t("content.how_much_content")
   .prices
     %h1
@@ -144,7 +142,16 @@
     %p
       = t("content.how_much_atomic")
     %p.price
-      = t("content.how_much_atomic_price")
+    = t("content.how_much_atomic_price")
+
+%section
+  #beta-info
+    = t("content.how_much_free_preview")
+
+%section
+  %p.centered
+    = t("content.convinced")
+  = link_to t("navigation.testing"), "https://app.clockwork.io/signup", class: "button button-orange", target: '_blank'
 
 .arrow-border
 
@@ -155,10 +162,5 @@
     = t("content.who_content")
   %article
     = image_tag("cileos_logo.png")
-
-.arrow-border
-
-%section
-  = link_to t("navigation.testing"), "https://app.clockwork.io/signup", class: "button button-orange", target: '_blank'
 
 .arrow-border

@@ -77,14 +77,18 @@ en:
       unstaffed shift."
 
     how_much_title: "How much is Clockwork?"
-    how_much_content: "30 Days for a trial version.
-    And no we don't need your credit card!"
+    how_much_content: "At the moment Clockwork is available in a preview version.
+    This means that you can use the software for free. When we start to charge
+    our customers for using Clockwork we will let you know and you will have
+    enough time to decide if you want to continue using Clockwork."
     how_much_solar: "Up to 19 employees:"
     how_much_solar_price: "29 Euro"
     how_much_steam: "Up to 49 employees:"
     how_much_steam_price: "79 Euro"
     how_much_atomic: "Up to 99 employees:"
     how_much_atomic_price: "129 Euro"
+    how_much_free_preview: "This is a free preview of Clockwork"
+    convinced: "Are you curious about Clockwork and wanna give it a try?"
 
     who_title: "Who is Clockwork?"
     who_content: "The team of <a href='http://cileos.com'>Cileos.com</a>
