@@ -39,24 +39,25 @@ de:
       report_content: "Lass Dir anzeigen, wer wann, wieviele Stunden, woran
       gearbeitet hat. Auch downloadbar als CSV- und Excel-Datei."
       conflicts: "Konflikte"
-      conflicts_content: "Nie wieder Doppelbelegung! Ist ein Mitarbeiter im Urlaub
-      oder ist dieser bereits zur gleichen Zeit für eine andere Schicht eingeplant? Du wirst darauf hingewiesen."
+      conflicts_content: "Lass dich von Clockwork darauf hinweisen, wenn ein
+      Mitarbeiter im Urlaub ist oder dieser bereits zur gleichen Zeit für eine
+      andere Schicht eingeplant ist."
       documents: "Dokumente teilen"
-      documents_content: "Du hast die Möglichkeit Dokumente hochzuladen.
-      Diese stehen dann Deinen  Mitarbeitern und Kollegen zur Verfügung."
+      documents_content: "Lade Dokumente zu Clockwork hoch. Diese stehen dann
+      deinen Mitarbeitern zur Verfügung und können von ihnen heruntergeladen
+      werden."
       communication: "Kommunikation"
-      communication_content: "Zur internen Kommunikation stehen Blogposts zu
-      Verfügung und Schichten können kommentiert werden. Der Notification-Hub
-      hält dich zur jeder Zeit auf dem Laufenden über neue und anstehende Ereignisse."
+      communication_content: "Schreibe Blogposts oder kommentiere Schichten um
+      mit deinen Mitarbeitern intern zu kommunizieren. Der Notification-Hub
+      hält dich zur jeder Zeit auf dem Laufenden über neue und anstehende
+      Ereignisse."
       milestones: "Meilensteine"
       milestones_content: "Definiere Meilensteine und zu erledigende Aufgaben
       mit Fälligkeitsdatum für Deine Projekte oder Pläne."
       plan_templates: "Planvorlagen"
-      plan_templates_content: "Erstelle für wiederkehrende Planungsaufgaben
-      Vorlagen und wende diese auf Deine Pläne an, wenn Du sie brauchst."
-      plan_templates: "Planvorlagen"
-      plan_templates_content: "Erstelle für wiederkehrende Planungsaufgaben
-      Vorlagen und wende diese auf Deine Pläne an, wenn Du sie brauchst."
+      plan_templates_content: "Spare Zeit, indem Du für wiederkehrende
+      Planungsaufgaben Vorlagen erstellst und diese auf Deine Pläne anwendest,
+      wenn Du sie brauchst."
       alerts: "Erinnerungen"
       alerts_content: "Verpasse nie wieder eine Deiner Arbeitsschichten, indem
       Du dich von Clockwork per E-Mail über Deine anstehenden Dienste erinnern
