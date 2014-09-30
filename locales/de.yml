@@ -29,12 +29,13 @@ de:
     feature:
       title: "Was kann Clockwork?"
       flexible: "Flexibel"
-      flexible_content: "Flexible Strukturierung entsprechend Deines Unternehmens
-      mit Hilfe von Organisationen, Plänen, Arbeitsbereichen und Qualifikationen."
+      flexible_content: "Erstelle Organisationen, Pläne, Arbeitsbereiche und
+      Qualifikationen entsprechend der Anforderungen deiner Firma."
       calender: "Kalender-Export"
-      calender_content: "Importiere Deine Clockwork Termine in andere Kalenderapps
-      auf Deinem Handy, Tablet oder Computer. So bist Du auch unterwegs immer auf dem neuesten Stand
-      ohne einen Webbrowser benutzen zu müssen."
+      calender_content: "Importiere Deine Clockwork Termine in andere
+      Kalenderapps auf Deinem Handy, Tablet oder Computer. So bist Du auch
+      unterwegs immer auf dem neuesten Stand ohne einen Webbrowser benutzen zu
+      müssen."
       report: "Auswertung"
       report_content: "Lass Dir anzeigen, wer wann, wieviele Stunden, woran
       gearbeitet hat. Auch downloadbar als CSV- und Excel-Datei."
@@ -64,7 +65,7 @@ de:
       lässt."
 
     future_feature:
-      title: "geplante Features"
+      title: "Geplante Features"
       self_service_title: "Selbstbedienung"
       self_service_content: "Binde Deine Mitarbeiter in den Planungsprozess ein
       und übertrage ihnen einen gewissen Teil der Verantwortung.

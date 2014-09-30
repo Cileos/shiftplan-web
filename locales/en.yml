@@ -26,36 +26,56 @@ en:
     anywhere at any time. Just visit the website and log in.<br><br>
     It works on all mobile devices like your smart phone or tablet."
     feature:
-      title: "How does Clockwork work?"
+      title: "Key Features"
       flexible: "Flexible"
-      flexible_content: "You are able to use a flexible structure according to your company.
-      With the help of organization, plans, work areas and qualifications."
+      flexible_content: "Define a flexible structure matching your company's
+      needs by creating organizations, plans, work areas and qualifications."
       calender: "Calender Export"
-      calender_content: "Import your Clockwork appointments in other calendar
-      apps on your phone, tablet or computer.So you're on the go always up to date."
-      report: "Report"
-      report_content: "You can see who worked on what, when and how many hours.
-      Also downloadable as a CSV and Excel file."
+      calender_content: "Import your Clockwork appointments into other calendar
+      apps on your phone, tablet or computer. You will be up-to-date on the go
+      without even having to use a web browser."
+      report: "Reports"
+      report_content: "Let Clockwork show you who worked on what, when and how
+      many hours. Download your reports as a CSV or Excel file."
       conflicts: "Conflicts"
-      conflicts_content: "Never again double occupancy. In case an employee is
-      on vacation or the shift is already taken? You will be notified."
+      conflicts_content: "You will be notified if an employee is on vacation or
+      if he is already scheduled for another shift at the same time."
       documents: "Share Documents"
       documents_content: "You have the ability to upload documents. Your
       employees and colleagues have access to them."
+      documents_content: "Upload documents to Clockwork. Your colleagues have
+      access to them and can download them."
       communication: "Communication"
-      communication_content: "For internal communication you can use blog posts.
-      Also, employees can comment on shifts."
+      communication_content: "Write blog posts or comment on shifts to
+      communicate with your employees internally. The notification hub will keep
+      you on track about new and upcoming events at any time."
+      milestones: "Milestones"
+      milestones_content: "Create milestones and tasks with due dates for your
+      plans or projects."
+      plan_templates: "Plan templates"
+      plan_templates_content: "Save time by defining plan templates for your
+      recurring planning tasks. Apply the templates to your plans whenever you
+      need them again."
+      alerts: "Alerts"
+      alerts_content: "Never miss any of your working shifts again. Clockwork
+      notifies you about upcoming shifts by sending you an email."
 
     future_feature:
-      title: "planed features"
-      trading_shifts_title: "Shift-Trading"
-      trading_shifts_content: "with other employee gives you even more flexibility."
-      message_title: "Message Hub"
-      message_content: "for even better communication."
-      qualification_title: "Qualificationfilter"
-      qualification_content: "based resource matching."
-      self_service_title: "Self Service"
-      self_service_content: "indepenend planning on vacancies."
+      title: "Upcoming Features"
+      self_service_title: "Selbstbedienung"
+      self_service_content: "Binde Deine Mitarbeiter in den Planungsprozess ein
+      und übertrage ihnen einen gewissen Teil der Verantwortung.
+      Schichttauschwünsche und die Übernahme von Diensten können erfolgen, ohne
+      dass der Planer involviert ist."
+      time_tracking_title: "Mobile Stechuhr"
+      time_tracking_content: "Für den Soll-Ist-Zeiten Abgleich verrät Dir
+      diese, wieviele Stunden Deine Mitarbeiter tatsächlich gearbeitet haben. Bei
+      Dienstbeginn starten Deine Mitarbeiter die Zeiterfassung und stoppen diese,
+      wenn sie ihre Arbeit beenden, ganz einfach auf ihrem Telefon."
+      reward_system_title: "Kooperation lohnt sich"
+      reward_system_content: "Deine Mitarbeiter können ihre Kollegen für
+      besonders kollegiales Verhalten belohnen, indem sie bestimme Aktionen wie
+      spontanes Aushelfen bei kurzfristigen Dienstausfällen positiv bewerten."
 
     how_much_title: "How much is Clockwork?"
     how_much_content: "30 Days for a trial version.
