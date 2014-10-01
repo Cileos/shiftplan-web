@@ -99,6 +99,9 @@ de:
     how_much_hint_payment_method_yearly: "pro Monat, Zahlweise jährlich"
     how_much_hint_payment_method_monthly: "%{amount} € monatliche Zahlweise"
     convinced: "Bist du neugierig geworden?"
+    need_a_bigger_plan: "Noch mehr Mitarbeiter?"
+    need_a_bigger_plan_mail_subject: "Ich+brauche+einen+größeren+Plan"
+    contact_us: "Kontaktiere uns"
 
     who_title: "Wer ist Clockwork?"
     who_content: "Das Team von <a href='http://cileos.com'>Cileos.com</a> entwickelt

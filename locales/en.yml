@@ -91,6 +91,9 @@ en:
     how_much_hint_payment_method_yearly: "per month, paid annually"
     how_much_hint_payment_method_monthly: "€%{amount} month-by-month"
     convinced: "Are you curious about Clockwork and wanna give it a try?"
+    need_a_bigger_plan: "Need a bigger plan?"
+    need_a_bigger_plan_mail_subject: "I+need+a+bigger+plan"
+    contact_us: "Contact us"
 
     who_title: "Who is Clockwork?"
     who_content: "The team of <a href='http://cileos.com'>Cileos.com</a>

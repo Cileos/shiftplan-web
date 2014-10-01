@@ -158,7 +158,12 @@
 %section
   %p.centered
     = t("content.convinced")
-  = link_to t("navigation.testing"), "https://app.clockwork.io/signup", class: "button button-orange", target: '_blank'
+  = link_to t("navigation.testing"), "https://app.clockwork.io/signup", class: "button button-small button-orange", target: '_blank'
+
+%section
+  %p.centered
+    = t('content.need_a_bigger_plan')
+  = link_to t("content.contact_us"), "mailto:contact@clockwork.io?subject=#{t("content.need_a_bigger_plan_mail_subject")}", class: "button button-small button-orange"
 
 .arrow-border
 
