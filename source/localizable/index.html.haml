@@ -119,30 +119,37 @@
     = t("content.how_much_title")
   %p.centered
     = t("content.how_much_content")
-  .prices
-    %h1
-      Solar Clock
-    %i.fa.fa-user
-    %p
-      = t("content.how_much_solar")
-    %p.price
-      = t("content.how_much_solar_price")
-  .prices
-    %h1
-      Steam Clock
-    %i.fa.fa-users
-    %p
-      = t("content.how_much_steam")
-    %p.price
-      = t("content.how_much_steam_price")
-  .prices
-    %h1
-      Atomic Clock
-    %i.fa.fa-users
-    %p
-      = t("content.how_much_atomic")
-    %p.price
-    = t("content.how_much_atomic_price")
+  .plans
+    .prices
+      %h1
+        Solar Clock
+      %i.fa.fa-user
+      %p
+        = t("content.how_much_solar")
+      %p.price
+        = t("content.how_much_solar_price")
+      %p.small-hint= t("content.how_much_hint_payment_method_yearly")
+      %p.small-hint= t("content.how_much_hint_payment_method_monthly", amount: 33)
+    .prices
+      %h1
+        Steam Clock
+      %i.fa.fa-users
+      %p
+        = t("content.how_much_steam")
+      %p.price
+        = t("content.how_much_steam_price")
+      %p.small-hint= t("content.how_much_hint_payment_method_yearly")
+      %p.small-hint= t("content.how_much_hint_payment_method_monthly", amount: 87)
+    .prices
+      %h1
+        Atomic Clock
+      %i.fa.fa-users
+      %p
+        = t("content.how_much_atomic")
+      %p.price
+        = t("content.how_much_atomic_price")
+      %p.small-hint= t("content.how_much_hint_payment_method_yearly")
+      %p.small-hint= t("content.how_much_hint_payment_method_monthly", amount: 142)
 
 %section
   #beta-info

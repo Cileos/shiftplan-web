@@ -90,12 +90,14 @@ de:
     du kannst dich in Ruhe entscheiden, ob du Clockwork weiterhin nutzen
     möchtest."
     how_much_solar: "Bis zu 19 Mitarbeiter:"
-    how_much_solar_price: "29 Euro"
+    how_much_solar_price: "29 €"
     how_much_steam: "Bis zu 49 Mitarbeiter:"
-    how_much_steam_price: "79 Euro"
+    how_much_steam_price: "79 €"
     how_much_atomic: "Bis zu 99 Mitarbeiter:"
-    how_much_atomic_price: "129 Euro"
-    how_much_free_preview: "Das ist eine kostenlose Testversion von Clockwork"
+    how_much_atomic_price: "129 €"
+    how_much_free_preview: "Das ist eine kostenlose Testversion von Clockwork!"
+    how_much_hint_payment_method_yearly: "pro Monat, Zahlweise jährlich"
+    how_much_hint_payment_method_monthly: "%{amount} € monatliche Zahlweise"
     convinced: "Bist du neugierig geworden?"
 
     who_title: "Wer ist Clockwork?"
