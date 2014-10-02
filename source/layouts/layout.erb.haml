@@ -1,0 +1,25 @@
+!!! 5
+%html
+  %head
+    %title= t("site_title")
+
+    %meta{charset: "utf-8"}
+    %meta{content: "width=device-width, initial-scale=1.0", name: "viewport"}
+
+    %link{href: "//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css", rel: "stylesheet"}
+
+    = stylesheet_link_tag "styles"
+    = yield_content :styles
+    = javascript_include_tag  "main"
+    = yield_content :js
+    = yield_content :head
+
+
+  %body
+    :javascript
+      jQuery('body:not(.js)').addClass('js');
+    = partial "partials/nav"
+    %main
+      = yield
+    %footer
+      = partial "partials/footer"

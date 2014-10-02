@@ -1,1 +1,176 @@
-= partial "partials/teaser"
+%section.first
+  %h1
+    = t("content.title")
+  %h2
+    = t("content.subtitle")
+
+  = image_tag("dark-screen.gif")
+
+.arrow-border
+
+%section
+  %h1
+    = t("content.what_title")
+  %article
+    %p= t("content.what_content")
+  %article
+    = image_tag("some-screenshots.png")
+
+.arrow-border
+
+%section
+  %h1
+    = t("content.how_title")
+  %article
+    = image_tag("ipad4_nexus_landscape.png")
+  %article
+    = t("content.how_content")
+
+#features
+.arrow-border
+
+%section
+  %h1
+    = t("content.feature.title")
+  .features
+    .feature
+      %i.fa.fa-sitemap
+      %h1
+        = t("content.feature.flexible")
+      %p
+        = t("content.feature.flexible_content")
+    .feature
+      %i.fa.fa-calendar
+      %h1
+        = t("content.feature.calender")
+      %p
+        = t("content.feature.calender_content")
+    .feature
+      %i.fa.fa-file-text-o
+      %h1
+        = t("content.feature.report")
+      %p
+        = t("content.feature.report_content")
+    .feature
+      %i.fa.fa-flash
+      %h1
+        = t("content.feature.conflicts")
+      %p
+        = t("content.feature.conflicts_content")
+    .feature
+      %i.fa.fa-files-o
+      %h1
+        = t("content.feature.documents")
+      %p
+        = t("content.feature.documents_content")
+    .feature
+      %i.fa.fa-comments
+      %h1
+        = t("content.feature.communication")
+      %p
+        = t("content.feature.communication_content")
+    .feature
+      %i.fa.fa-plan-templates
+      %h1
+        = t("content.feature.plan_templates")
+      %p
+        = t("content.feature.plan_templates_content")
+    .feature
+      %i.fa.fa-milestones
+      %h1
+        = t("content.feature.milestones")
+      %p
+        = t("content.feature.milestones_content")
+    .feature
+      %i.fa.fa-alerts
+      %h1
+        = t("content.feature.alerts")
+      %p
+        = t("content.feature.alerts_content")
+
+%section
+  %h2
+    %i.fa.fa-gears
+    = t("content.future_feature.title")
+  .features
+    .feature
+      %h1
+        = t("content.future_feature.self_service_title")
+      %p
+        = t("content.future_feature.self_service_content")
+    .feature
+      %h1
+        = t("content.future_feature.time_tracking_title")
+      %p
+        = t("content.future_feature.time_tracking_content")
+    .feature
+      %h1
+        = t("content.future_feature.reward_system_title")
+      %p
+        = t("content.future_feature.reward_system_content")
+
+#prices
+.arrow-border
+
+%section
+  %h1
+    = t("content.how_much_title")
+  %p.centered
+    = t("content.how_much_content")
+  .plans
+    .prices
+      %h1
+        Solar Clock
+      %i.fa.fa-user
+      %p
+        = t("content.how_much_solar")
+      %p.price
+        = t("content.how_much_solar_price")
+      %p.small-hint= t("content.how_much_hint_payment_method_yearly")
+      %p.small-hint= t("content.how_much_hint_payment_method_monthly", amount: 33)
+    .prices
+      %h1
+        Steam Clock
+      %i.fa.fa-users
+      %p
+        = t("content.how_much_steam")
+      %p.price
+        = t("content.how_much_steam_price")
+      %p.small-hint= t("content.how_much_hint_payment_method_yearly")
+      %p.small-hint= t("content.how_much_hint_payment_method_monthly", amount: 87)
+    .prices
+      %h1
+        Atomic Clock
+      %i.fa.fa-users
+      %p
+        = t("content.how_much_atomic")
+      %p.price
+        = t("content.how_much_atomic_price")
+      %p.small-hint= t("content.how_much_hint_payment_method_yearly")
+      %p.small-hint= t("content.how_much_hint_payment_method_monthly", amount: 142)
+
+%section
+  #beta-info
+    = t("content.how_much_free_preview")
+
+%section
+  %p.centered
+    = t("content.convinced")
+  = link_to t("navigation.testing"), "https://app.clockwork.io/signup", class: "button button-small button-orange", target: '_blank'
+
+%section
+  %p.centered
+    = t('content.need_a_bigger_plan')
+  = link_to t("content.contact_us"), "mailto:contact@clockwork.io?subject=#{t("content.need_a_bigger_plan_mail_subject")}", class: "button button-small button-orange"
+
+.arrow-border
+
+%section
+  %h1
+    = t("content.who_title")
+  %article
+    = t("content.who_content")
+  %article
+    = link_to image_tag("cileos_logo.png"), 'http://cileos.com'
+
+.arrow-border

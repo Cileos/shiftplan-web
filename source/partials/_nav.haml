@@ -1,0 +1,18 @@
+%header.navigation
+  .navigation-wrapper
+    = link_to image_tag("clockwork-logo.png", alt: "Clockwork"), "/#{I18n.locale}"
+    = link_to "Menu", "", class: "navigation-menu-button", id: "js-mobile-menu"
+    .nav
+      %ul#navigation-menu
+        %li.nav-link
+          = link_to t("navigation.features"), "/#{I18n.locale}/#features"
+        %li.nav-link
+          = link_to t("navigation.prices"), "/#{I18n.locale}#prices"
+        %li.nav-link
+          = link_to t("navigation.testing"), "https://app.clockwork.io/signup", class: "button button-orange"
+        %li.nav-link
+          = link_to t("navigation.login"), "https://app.clockwork.io/users/sign_in"
+        %li.nav-link
+          = link_to "EN", "/en/#{path_without_locale}.html", class: "translate"
+          |
+          \#{link_to "DE", "/de/#{path_without_locale}.html", class: "translate"}

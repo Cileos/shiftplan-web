@@ -1,0 +1,35 @@
+%nav
+  %section
+    %h1
+      = t("footer.sitemap")
+    %hr
+    %ul
+      %li
+        = link_to t("footer.features"), "/#{I18n.locale}/#features"
+      %li
+        = link_to t("footer.prices"), "/#{I18n.locale}/#prices"
+      %li
+        = link_to t("footer.testing"), "https://app.clockwork.io/signup"
+      %li
+        = link_to t("footer.login"), "https://app.clockwork.io/users/sign_in"
+      %li
+        = link_to t("footer.imprint"), "/#{I18n.locale}/imprint.html"
+  %section
+    %h1
+      = t("footer.contact")
+    %hr
+    %ul
+      %li
+        %i.icon.fa.fa-phone
+        +49 (0) 331 28 05 454
+      %br
+      %li
+        = link_to "mailto:contact@clockwork.io" do
+          %i.icon.fa.fa-envelope
+          contact@clockwork.io
+  %section
+    %h1
+      = t("footer.social")
+    %hr
+    = link_to "https://twitter.com/Clockwork_io", target: '_blank' do
+      %i.social.fa.fa-twitter

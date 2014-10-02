@@ -1,71 +1,122 @@
 ---
 en:
-  features:
-    title: "Features"
-    flexible:
-      title: "Flexible"
-      text: "You are able to use a flexible structure according to your company.<br> With the help of organization, plans, work areas and qualifications"
-    calender:
-      title: "Calender Export"
-      text: "Import your Clockwork appointments in other calendar apps on your phone, tablet or computer.<br> So you're on the go always up to date."
-    report:
-      title: "Report"
-      text: "You can see who worked on what, when and how many hours. <br> Also downloadable as a CSV and Excel file."
-    conflicts:
-      title: "Conflicts"
-      text: "Never again double occupancy. In case an employee is on vacation or the shift is already taken? You will be notified."
-    sharing:
-      title: "Share your Documents"
-      text: "You have the ability to upload documents. Your employees and colleagues have access to them."
-    communication:
-      title: "Communication"
-      text: "For internal communication you can use blog posts. Also, employees can comment on shifts."
-  features-to-come:
-    title: "Features to come"
-    shift:
-      title: "Shift-Trading"
-      text: "with other employee gives you even more flexibility."
-    qualification:
-      title: "Qualification"
-      text: "based resource matching."
-    messagehub:
-      title: "MessageHub"
-      text: "for even better communication."
-    selfservice:
-      title: "Self-Service"
-      text: "indepenplanning on vacancies."
-
-  trial:
-    text: "Ready to give it a try?"
-    button: "Start your free trial"
-
+  site_title: "Clockwork - The Smart Workforce Management App"
   navigation:
     features: "Features"
-    prices: "Plans &amp; Pricing"
-    free-trial: "Free trial"
+    prices: "Prices"
+    testing: "Free Trial"
     login: "Log in"
-    aboutus: "About us"
+
+  speechbubbles:
+    planning: "Good planning for a good result!"
+    convinced: "Convinced? <br>Try Clockwork for free!"
+
+  content:
+    title: "Save Time for pressing matters"
+    subtitle: "Our easy employee scheduling software makes your life easier and
+    your employees happier. Make it run like clockwork."
+    what_title: "What is Clockwork?"
+    what_content: "Clockwork is a website on which you can plan the shifts of
+    your employees.<br><br>You and your team keep a clear overview and everybody
+    can access the current working plan at any time."
+    what_research: " According to our research it takes on average 8 hours per
+    month to schedule a team of 20 employees. Clockwork can reduce that time by
+    50 percent."
+    how_title: "How does Clockwork work?"
+    how_content: "Clockwork is a web application. You can access it from
+    anywhere at any time. Just visit the website and log in.<br><br>
+    It works on all mobile devices like your smart phone or tablet."
+    feature:
+      title: "Key Features"
+      flexible: "Flexible"
+      flexible_content: "Define a flexible structure matching your company's
+      needs by creating organizations, plans, work areas and qualifications."
+      calender: "Calender Export"
+      calender_content: "Import your Clockwork appointments into other calendar
+      apps on your phone, tablet or computer. You will be up-to-date on the go
+      without even having to use a web browser."
+      report: "Reports"
+      report_content: "Let Clockwork show you who worked on what, when and how
+      many hours. Download your reports as a CSV or Excel file."
+      conflicts: "Conflicts"
+      conflicts_content: "You will be notified if an employee is on vacation or
+      if he is already scheduled for another shift at the same time."
+      documents: "Share Documents"
+      documents_content: "You have the ability to upload documents. Your
+      employees and colleagues have access to them."
+      documents_content: "Upload documents to Clockwork. Your colleagues have
+      access to them and can download them."
+      communication: "Communication"
+      communication_content: "Write blog posts or comment on shifts to
+      communicate with your employees internally. The notification hub will keep
+      you on track about new and upcoming events at any time."
+      milestones: "Milestones"
+      milestones_content: "Create milestones and tasks with due dates for your
+      plans or projects."
+      plan_templates: "Plan templates"
+      plan_templates_content: "Save time by defining plan templates for your
+      reoccurring planning tasks. Apply the templates to your plans whenever you
+      need them again."
+      alerts: "Alerts"
+      alerts_content: "Never miss any of your working shifts again. Clockwork
+      notifies you about upcoming shifts by sending you an email."
+
+    future_feature:
+      title: "Upcoming Features"
+      self_service_title: "Self-Service"
+      self_service_content: "Plug your team into the planning process by letting
+      them trade their shifts independently. Empowering your employees will
+      decentralize the planning and decrease the time managers usually spend to
+      get their work done."
+      time_tracking_title: "Mobile Time-Clocking"
+      time_tracking_content: "Track the attendance of your staff easily. Your
+      employees can clock in and clock out via our mobile app, text message or
+      on our website in real time."
+      reward_system_title: "Social Reward System"
+      reward_system_content: "Your employees can reward their colleagues by
+      positively rating certain actions like spontaneously helping out for an
+      unstaffed shift."
+
+    how_much_title: "How much is Clockwork?"
+    how_much_content: "At the moment Clockwork is available in a preview version.
+    This means that you can use the software for free. When we start to charge
+    our customers for using Clockwork we will let you know and you will have
+    enough time to decide if you want to continue using Clockwork."
+    how_much_solar: "Up to 19 employees:"
+    how_much_solar_price: "€29"
+    how_much_steam: "Up to 49 employees:"
+    how_much_steam_price: "€79"
+    how_much_atomic: "Up to 99 employees:"
+    how_much_atomic_price: "€129"
+    how_much_free_preview: "This is a free preview of Clockwork!"
+    how_much_hint_payment_method_yearly: "per month, paid annually"
+    how_much_hint_payment_method_monthly: "€%{amount} month-by-month"
+    convinced: "Are you curious about Clockwork and wanna give it a try?"
+    need_a_bigger_plan: "Need a bigger plan?"
+    need_a_bigger_plan_mail_subject: "I+need+a+bigger+plan"
+    contact_us: "Contact us"
+
+    who_title: "Who is Clockwork?"
+    who_content: "The team of <a href='http://cileos.com'>Cileos.com</a>
+    develops Clockwork.io.<br><br>
+    According to our motto \"Mad Science & Serious Business\" Clockwork gets
+    constantly improved and adopted to the needs of our customers."
+    imprint: "Imprint"
+    imprint_company_representative: "Company Representative"
+    imprint_contact: "Contact"
+    imprint_commercial_register: "Commercial Register"
+    imprint_vat_id: "VAT ID"
+    imprint_responsible_for_content: "Responsible for content"
+    imprint_disclaimer: "Disclaimer (German only)"
+
+  footer:
+    sitemap: "Sitemap"
+    contact: "Contact"
+    social: "Social"
+    features: "Features"
+    prices: "Prices"
+    testing: "Free Trial"
+    login: "Log in"
+    faq: "FAQ"
     blog: "Blog"
     imprint: "Imprint"
-
-  index:
-   title: "Save time for pressing matters"
-   text: "Make your life easier and your employees happier. Make it run like clockwork. No pun intended."
-   explore-feature: "Explore features"
-
-  pricing:
-    title: "Which clock works for you?"
-    text: "30 days to make the best of Clockwork. Go for it. And no, we don't      need your credit card."
-    free-preview: "This is a free preview of Clockwork"
-    free-preview-button: "Give it a spin!"
-    bigger-plan: "Need a bigger plan?"
-    bigger-plan-button: "Get in touch"
-    rate: "per month, paid annually."
-    rate-monthly: "month-by-month."
-    upto: "Up to"
-    employees: "employees"
-    units: "Unlimited Units"
-    signup: "Sign up"
-    show-prices: "Show Prices in USD"
-    show-prices-usd: "Show Prices in US-Dollar"
-    show-prices-eur: "Show Prices in Euro"

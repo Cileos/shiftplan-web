@@ -1,71 +1,130 @@
 ---
 de:
-  features:
-    title: "Features"
-    flexible:
-      title: "Flexibel"
-      text: "Flexible Strukturierung entsprechend Deines Unternehmens mit Hilfe von<br> Organisationen, Plänen, Arbeitsbereichen und Qualifikationen."
-    calender:
-      title: "Kalender Export"
-      text: "Importiere Deine Clockwork Termine in andere Kalenderapps auf Deinem Handy, Tablet oder Computer.<br> So bist Du auch unterwegs immer auf dem neuesten Stand."
-    report:
-      title: "Auswertung"
-      text: "Lass Dir anzeigen, wer wann, wieviele Stunden, woran gearbeitet hat.<br> Auch downloadbar als csv- und Excel-Datei."
-    conflicts:
-      title: "Konflikte"
-      text: "Nie wieder Doppelbelegung! Ist ein Mitarbeiter im Urlaub oder ist die Schicht schon belegt? Du wirst darauf hingewiesen."
-    sharing:
-      title: "Dokumente teilen"
-      text: "Du hast die Möglichkeit Dokumente hochzuladen. Diese stehen dann Deinen Mitarbeitern und Kollegen zur Verfügung."
-    communication:
-      title: "Kommunikation"
-      text: "Zur internen Kommunikation stehen Blogposts zu Verfügung. Außerdem können die Mitarbeiter Schichten kommentieren."
-  features-to-come:
-    title: "geplante Features"
-    shift:
-      title: "Schichtentausch"
-      text: "unter den Kollegen sorgt für mehr Flexibilität."
-    qualification:
-      title: "Qualifikationsfilter"
-      text: "zeigt für die jeweilige Schicht Mitarbeiter gefiltert nach Qualifikationen an."
-    messagehub:
-      title: "MessageHub"
-      text: "für eine noch bessere Kommunikation."
-    selfservice:
-      title: "Self-Service"
-      text: "selbständige Anfrage zur Schichtenbelegung von Mitarbeiter."
-
-  trial:
-    text: "Haben wir Dich überzeugt?"
-    button: "Teste Clockwork kostenlos!"
-
+  site_title: "Clockwork.io - Arbeitsplanung leicht gemacht"
   navigation:
     features: "Features"
     prices: "Preise"
-    free-trial: "Kostenlos testen"
-    login: "Anmelden"
-    aboutus: "Über uns"
-    blog: "Blog"
+    testing: "Kostenlos testen"
+    login: "Einloggen"
+
+  speechbubbles:
+    planning: "Eine gute Planung ist die beste Voraussetzung für ein gutes Ergebnis!"
+    convinced: "Haben wir Dich überzeugt? Dann teste Clockwork kostenlos!"
+
+  content:
+    title: "Arbeitsplanung - leicht gemacht"
+    subtitle: "für Deine Firma, Dein Projekt, Deine Teams ..."
+    what_title: "Was ist Clockwork?"
+    what_content: "Clockwork ist eine Website, auf der Du die Arbeitsschichten
+    deiner Mitarbeiter planen kannst.<br><br>So behalten Du und Deine
+    Mitarbeiter die Übersicht. Alle haben jederzeit Zugriff auf die aktuelle
+    Planung."
+    what_research: "Laut unserer Recherchen werden durchschnittlich 8 Stunden
+    im Monat benötigt, um ein Team von 20 Mitarbeitern zu planen. Clockwork kann
+    diese Zeit um 50 Prozent reduzieren."
+    how_title: "Wie funktioniert Clockwork?"
+    how_content: "Clockwork ist eine Webapplikation. Du kannst von überall auf
+    Clockwork zugreifen. Einfach die Webseite im Browser aufrufen, einloggen und
+    fertig! <br><br>
+    Es funktioniert auf allen mobilen Geräten wie Deinem Smart Phone oder
+    Tablet."
+    feature:
+      title: "Was kann Clockwork?"
+      flexible: "Flexibel"
+      flexible_content: "Erstelle Organisationen, Pläne, Arbeitsbereiche und
+      Qualifikationen entsprechend der Anforderungen deiner Firma."
+      calender: "Kalender-Export"
+      calender_content: "Importiere Deine Clockwork Termine in andere
+      Kalenderapps auf Deinem Handy, Tablet oder Computer. So bist Du auch
+      unterwegs immer auf dem neuesten Stand ohne einen Webbrowser benutzen zu
+      müssen."
+      report: "Auswertung"
+      report_content: "Lass Dir anzeigen, wer wann, wieviele Stunden, woran
+      gearbeitet hat. Auch downloadbar als CSV- und Excel-Datei."
+      conflicts: "Konflikte"
+      conflicts_content: "Lass dich von Clockwork darauf hinweisen, wenn ein
+      Mitarbeiter im Urlaub ist oder dieser bereits zur gleichen Zeit für eine
+      andere Schicht eingeplant ist."
+      documents: "Dokumente teilen"
+      documents_content: "Lade Dokumente zu Clockwork hoch. Diese stehen dann
+      deinen Mitarbeitern zur Verfügung und können von ihnen heruntergeladen
+      werden."
+      communication: "Kommunikation"
+      communication_content: "Schreibe Blogposts oder kommentiere Schichten um
+      mit deinen Mitarbeitern intern zu kommunizieren. Der Notification-Hub
+      hält dich zur jeder Zeit auf dem Laufenden über neue und anstehende
+      Ereignisse."
+      milestones: "Meilensteine"
+      milestones_content: "Definiere Meilensteine und zu erledigende Aufgaben
+      mit Fälligkeitsdatum für Deine Projekte oder Pläne."
+      plan_templates: "Planvorlagen"
+      plan_templates_content: "Spare Zeit, indem Du für wiederkehrende
+      Planungsaufgaben Vorlagen erstellst und diese auf Deine Pläne anwendest,
+      wenn Du sie brauchst."
+      alerts: "Erinnerungen"
+      alerts_content: "Verpasse nie wieder eine Deiner Arbeitsschichten, indem
+      Du dich von Clockwork per E-Mail über Deine anstehenden Dienste erinnern
+      lässt."
+
+    future_feature:
+      title: "Geplante Features"
+      self_service_title: "Selbstbedienung"
+      self_service_content: "Binde Deine Mitarbeiter in den Planungsprozess ein
+      und übertrage ihnen einen gewissen Teil der Verantwortung.
+      Schichttauschwünsche und die Übernahme von Diensten können erfolgen, ohne
+      dass der Planer involviert ist."
+      time_tracking_title: "Mobile Stechuhr"
+      time_tracking_content: "Für den Soll-Ist-Zeiten Abgleich verrät Dir
+      diese, wieviele Stunden Deine Mitarbeiter tatsächlich gearbeitet haben. Bei
+      Dienstbeginn starten Deine Mitarbeiter die Zeiterfassung und stoppen diese,
+      wenn sie ihre Arbeit beenden, ganz einfach auf ihrem Telefon."
+      reward_system_title: "Kooperation lohnt sich"
+      reward_system_content: "Deine Mitarbeiter können ihre Kollegen für
+      besonders kollegiales Verhalten belohnen, indem sie bestimme Aktionen wie
+      spontanes Aushelfen bei kurzfristigen Dienstausfällen positiv bewerten."
+
+    how_much_title: "Wieviel kostet Clockwork?"
+    how_much_content: "Zur Zeit gibt es Clockwork nur als Testversion. Das
+    bedeutet für dich, dass du die Software erstmal kostenlos und zeitlich
+    unbegrenzt testen kannst. Es steht bisher noch kein genauer Termin fest,
+    wann Clockwork kostenpflichtig wird. Wir informieren dich dann darüber und
+    du kannst dich in Ruhe entscheiden, ob du Clockwork weiterhin nutzen
+    möchtest."
+    how_much_solar: "Bis zu 19 Mitarbeiter:"
+    how_much_solar_price: "29 €"
+    how_much_steam: "Bis zu 49 Mitarbeiter:"
+    how_much_steam_price: "79 €"
+    how_much_atomic: "Bis zu 99 Mitarbeiter:"
+    how_much_atomic_price: "129 €"
+    how_much_free_preview: "Das ist eine kostenlose Testversion von Clockwork!"
+    how_much_hint_payment_method_yearly: "pro Monat, Zahlweise jährlich"
+    how_much_hint_payment_method_monthly: "%{amount} € monatliche Zahlweise"
+    convinced: "Bist du neugierig geworden?"
+    need_a_bigger_plan: "Noch mehr Mitarbeiter?"
+    need_a_bigger_plan_mail_subject: "Ich+brauche+einen+größeren+Plan"
+    contact_us: "Kontaktiere uns"
+
+    who_title: "Wer ist Clockwork?"
+    who_content: "Das Team von <a href='http://cileos.com'>Cileos.com</a> entwickelt
+    Clockwork.io.<br><br>
+    Getreu dem Motto \"Mad Science & Serious Business\" wird das System
+    kontinuierlich und agil an die Bedürfnisse unserer Kunden angepasst."
     imprint: "Impressum"
+    imprint_company_representative: "Vertreten durch"
+    imprint_contact: "Kontakt"
+    imprint_commercial_register: "Registereintrag"
+    imprint_vat_id: "Umsatzsteuer-ID gemäß §27 a Umsatzsteuergesetz"
+    imprint_responsible_for_content: "Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV"
+    imprint_disclaimer: "Haftungsausschluss"
 
-  index:
-   title: "Arbeitsplanung -<br>leicht gemacht"
-   text: "für Deine Firma, Dein Projekt, Deine Teams ..."
-   explore-feature: "Unsere Features"
-
-  pricing:
-    title: "Was passt am besten?"
-    text: "30 Tage um Clockwork auszutesten. Versuch es doch! <br>Und nein, wir brauchen Deine Kreditkarte nicht."
-    free-preview: "Das ist eine kostenlose Testversion von Clockwork"
-    free-preview-button: "Probiere es aus!"
-    bigger-plan: "Noch mehr Mitarbeiter?"
-    bigger-plan-button: "Kontaktiere uns"
-    rate: "pro Monat, Zahlweise jährlich"
-    rate-monthly: "monatliche Zahlweise"
-    upto: "Bis zu"
-    employees: "Mitarbeiter"
-    units: "unbegrenzte Anzahl von Plänen"
-    signup: "Registrieren"
-    show-prices: "Zeige die Preise in US-Dollar"
-    show-prices-usd: "Zeige die Preise in US-Dollar"
-    show-prices-eur: "Zeige die Preise in Euro"
+  footer:
+    sitemap: "Sitemap"
+    contact: "Kontakt"
+    social: "Social"
+    features: "Features"
+    prices: "Preise"
+    testing: "Kostenlos testen"
+    login: "Einloggen"
+    faq: "FAQ"
+    blog: "Blog"
+    imprint: Impressum

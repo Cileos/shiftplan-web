@@ -1,34 +1,17 @@
-shiftplan-web
-=============
+# Middleman with Bower, jQuery, Bourbon and Neat
 
-all web stuff around the shiftplan app (e.g. landing page etc.)
+This is a template for [Middleman](http://middlemanapp.com) featuring:
 
+* [Bower](http://bower.io/ "BOWER: A package manager for the web")
+* [jQuery](http://en.wikipedia.org/wiki/Query "Query - Wikipedia, the free encyclopedia")
+* [Bourbon](http://bourbon.io "Bourbon - A Sass Mixin Library")
+* [Neat](http://neat.bourbon.io "Bourbon Neat")
+* [Sass](http://sass-lang.com "Sass: Syntactically Awesome Style Sheets")
+* [Coffeescript](http://coffeescript.org/ "CoffeeScript")
 
-CSS compilation (without rails)
-===============================
+## Installation
 
-* `gem install bourbon`
-* go to `assets/scss` and run `bourbon install` & `neat install`
-* use sass to compile files on every change: `sass -r ./assets/scss/bourbon/lib/bourbon.rb --watch assets/scss:assets/css`
-
-
-Landing Page
-============
-
-The landing page is build with the help of middleman.
-
-Build
------
-
-Either use middleman as idented or just run
-
-        rake landing:build
-
-Deploy
-------
-
-To deploy a new version of the landing page, you do not need to push code anywhere, as it will be compiled on your machine and uploaded directly into the webserver. Just do:
-
-        rake landing:upload
-
-This will build the most recent version and upload it using rsync over ssh.
+1. Download or clone this repository to:
+  `git clone https://github.com/juanghurtado/middleman-bower-bourbon-neat.git ~/.middleman/bower-bourbon-neat`
+2. Create your new Middleman project with: `middleman init my_new_project --template=bower-bourbon-neat`
+3. Use `bower install` to install the assets in the `components/` directory (you'll need to have Bower npm package installed: `npm install -g bower`)
