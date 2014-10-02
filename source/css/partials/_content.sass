@@ -13,6 +13,18 @@ main
     +media($tablet)
       background: none
 
+  #screen_image
+    position: relative
+    background: url("../images/dark-screen.gif")
+    background-repeat: no-repeat
+    background-size: 100%
+    height: 100%
+    +outer-container
+
+    +media($desktop)
+      +outer-container
+      height: 800px
+
   #imprint
     margin-top: 180px
 
@@ -39,18 +51,6 @@ main
     font-family: $header-font, $verdana
     text-align: center
     font-weight: normal
-
-  #screen_image
-    position: relative
-    background: url("../images/dark-screen.gif")
-    background-repeat: no-repeat
-    background-size: 100%
-    height: 100%
-    +outer-container
-
-    +media($desktop)
-      +outer-container
-      height: 800px
 
   section
     +outer-container
@@ -169,6 +169,12 @@ main
         margin: 30px 10px
         +span-columns(4)
         +omega()
+
+  section.first
+    margin-top: 100px
+    h2
+      font-size: 30px
+      text-transform: none
 
   #beta-info
     position: relative
