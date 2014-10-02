@@ -101,6 +101,13 @@ en:
     develops Clockwork.io.<br><br>
     According to our motto \"Mad Science & Serious Business\" Clockwork gets
     constantly improved and adopted to the needs of our customers."
+    imprint: "Imprint"
+    imprint_company_representative: "Company Representative"
+    imprint_contact: "Contact"
+    imprint_commercial_register: "Commercial Register"
+    imprint_vat_id: "VAT ID"
+    imprint_responsible_for_content: "Responsible for content"
+    imprint_disclaimer: "Disclaimer (German only)"
 
   footer:
     sitemap: "Sitemap"
@@ -112,3 +119,4 @@ en:
     login: "Log in"
     faq: "FAQ"
     blog: "Blog"
+    imprint: "Imprint"

@@ -109,6 +109,13 @@ de:
     Clockwork.io.<br><br>
     Getreu dem Motto \"Mad Science & Serious Business\" wird das System
     kontinuierlich und agil an die Bedürfnisse unserer Kunden angepasst."
+    imprint: "Impressum"
+    imprint_company_representative: "Vertreten durch"
+    imprint_contact: "Kontakt"
+    imprint_commercial_register: "Registereintrag"
+    imprint_vat_id: "Umsatzsteuer-ID gemäß §27 a Umsatzsteuergesetz"
+    imprint_responsible_for_content: "Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV"
+    imprint_disclaimer: "Haftungsausschluss"
 
   footer:
     sitemap: "Sitemap"
@@ -120,3 +127,4 @@ de:
     login: "Einloggen"
     faq: "FAQ"
     blog: "Blog"
+    imprint: Impressum

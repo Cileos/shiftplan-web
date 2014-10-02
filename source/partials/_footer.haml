@@ -5,13 +5,15 @@
     %hr
     %ul
       %li
-        = link_to t("footer.features"), "#features"
+        = link_to t("footer.features"), "/#{I18n.locale}/#features"
       %li
-        = link_to t("footer.prices"), "#prices"
+        = link_to t("footer.prices"), "/#{I18n.locale}/#prices"
       %li
         = link_to t("footer.testing"), "https://app.clockwork.io/signup"
       %li
         = link_to t("footer.login"), "https://app.clockwork.io/users/sign_in"
+      %li
+        = link_to t("footer.imprint"), "/#{I18n.locale}/imprint.html"
   %section
     %h1
       = t("footer.contact")
