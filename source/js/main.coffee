@@ -1,6 +1,10 @@
 //= require jquery
+//= require unslider.min
 
 $(document).ready ->
+  # slideshow for screenshots
+  $('.banner').unslider();
+
   menu = $("#navigation-menu")
   menuToggle = $("#js-mobile-menu")
   $(menuToggle).on "click", (e) ->
