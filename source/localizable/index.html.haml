@@ -139,59 +139,64 @@
       %p
         = t("content.future_feature.reward_system_content")
 
-#prices
 .arrow-border
+
+-# #prices
+-# .arrow-border
 
 %section
   %h1
     = t("content.how_much_title")
   %p.centered
     = t("content.how_much_content")
-  .plans
-    .prices
-      %h1
-        Solar Clock
-      %i.fa.fa-user
-      %p
-        = t("content.how_much_solar")
-      %p.price
-        = t("content.how_much_solar_price")
-      %p.small-hint= t("content.how_much_hint_payment_method_yearly")
-      %p.small-hint= t("content.how_much_hint_payment_method_monthly", amount: 33)
-    .prices
-      %h1
-        Steam Clock
-      %i.fa.fa-users
-      %p
-        = t("content.how_much_steam")
-      %p.price
-        = t("content.how_much_steam_price")
-      %p.small-hint= t("content.how_much_hint_payment_method_yearly")
-      %p.small-hint= t("content.how_much_hint_payment_method_monthly", amount: 87)
-    .prices
-      %h1
-        Atomic Clock
-      %i.fa.fa-users
-      %p
-        = t("content.how_much_atomic")
-      %p.price
-        = t("content.how_much_atomic_price")
-      %p.small-hint= t("content.how_much_hint_payment_method_yearly")
-      %p.small-hint= t("content.how_much_hint_payment_method_monthly", amount: 142)
+
+.arrow-border
+
+-#   .plans
+-#     .prices
+-#       %h1
+-#         Solar Clock
+-#       %i.fa.fa-user
+-#       %p
+-#         = t("content.how_much_solar")
+-#       %p.price
+-#         = t("content.how_much_solar_price")
+-#       %p.small-hint= t("content.how_much_hint_payment_method_yearly")
+-#       %p.small-hint= t("content.how_much_hint_payment_method_monthly", amount: 33)
+-#     .prices
+-#       %h1
+-#         Steam Clock
+-#       %i.fa.fa-users
+-#       %p
+-#         = t("content.how_much_steam")
+-#       %p.price
+-#         = t("content.how_much_steam_price")
+-#       %p.small-hint= t("content.how_much_hint_payment_method_yearly")
+-#       %p.small-hint= t("content.how_much_hint_payment_method_monthly", amount: 87)
+-#     .prices
+-#       %h1
+-#         Atomic Clock
+-#       %i.fa.fa-users
+-#       %p
+-#         = t("content.how_much_atomic")
+-#       %p.price
+-#         = t("content.how_much_atomic_price")
+-#       %p.small-hint= t("content.how_much_hint_payment_method_yearly")
+-#       %p.small-hint= t("content.how_much_hint_payment_method_monthly", amount: 142)
+
+-# %section
+-#   #beta-info
+-#     = t("content.how_much_free_preview")
 
 %section
-  #beta-info
-    = t("content.how_much_free_preview")
-
-%section
-  %p.centered
+  %h2
     = t("content.convinced")
   = link_to t("navigation.testing"), "https://app.clockwork.io/signup", class: "button button-small button-orange", target: '_blank'
 
-%section
-  %p.centered
-    = t('content.need_a_bigger_plan')
-  = link_to t("content.contact_us"), "mailto:contact@clockwork.io?subject=#{t("content.need_a_bigger_plan_mail_subject")}", class: "button button-small button-orange"
+-# %section
+-#   %p.centered
+-#     = t('content.need_a_bigger_plan')
+-#   = link_to t("content.contact_us"), "mailto:contact@clockwork.io?subject=#{t("content.need_a_bigger_plan_mail_subject")}", class: "button button-small button-orange"
 
 .arrow-border
 

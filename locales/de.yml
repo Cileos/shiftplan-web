@@ -4,7 +4,7 @@ de:
   navigation:
     features: "Features"
     prices: "Preise"
-    testing: "Kostenlos testen"
+    testing: "Kostenlos registieren"
     login: "Einloggen"
 
   speechbubbles:
@@ -15,7 +15,7 @@ de:
     title: "Arbeitsplanung - leicht gemacht"
     subtitle: "für Deine Firma, Dein Projekt, Deine Teams ..."
     what_title: "Was ist Clockwork?"
-    what_content: "Clockwork ist eine Website, auf der Du die Arbeitsschichten
+    what_content: "Clockwork ist eine Webseite, auf der Du die Arbeitsschichten
     deiner Mitarbeiter planen kannst.<br><br>So behalten Du und Deine
     Mitarbeiter die Übersicht. Alle haben jederzeit Zugriff auf die aktuelle
     Planung."
@@ -84,12 +84,16 @@ de:
       spontanes Aushelfen bei kurzfristigen Dienstausfällen positiv bewerten."
 
     how_much_title: "Wieviel kostet Clockwork?"
-    how_much_content: "Zur Zeit gibt es Clockwork nur als Testversion. Das
-    bedeutet für dich, dass du die Software erstmal kostenlos und zeitlich
-    unbegrenzt testen kannst. Es steht bisher noch kein genauer Termin fest,
-    wann Clockwork kostenpflichtig wird. Wir informieren dich dann darüber und
-    du kannst dich in Ruhe entscheiden, ob du Clockwork weiterhin nutzen
-    möchtest."
+    # how_much_content: "Zur Zeit gibt es Clockwork nur als Testversion. Das
+    # bedeutet für dich, dass du die Software erstmal kostenlos und zeitlich
+    # unbegrenzt testen kannst. Es steht bisher noch kein genauer Termin fest,
+    # wann Clockwork kostenpflichtig wird. Wir informieren dich dann darüber und
+    # du kannst dich in Ruhe entscheiden, ob du Clockwork weiterhin nutzen
+    # möchtest."
+    how_much_content: "Clockwork.io ist kostenlos. Registriere dich doch einfach
+    gleich und probiere unsere Webseite aus. Wir freuen uns uns über das
+    Feedback unserer Benutzer. So verbessern wir Clockwork kontinuierlich
+    entsprechend existierender Anforderungen bei der Personaleinsatzplanung."
     how_much_solar: "Bis zu 19 Mitarbeiter:"
     how_much_solar_price: "29 €"
     how_much_steam: "Bis zu 49 Mitarbeiter:"
@@ -123,7 +127,7 @@ de:
     social: "Social"
     features: "Features"
     prices: "Preise"
-    testing: "Kostenlos testen"
+    testing: "Kostenlos registrieren"
     login: "Einloggen"
     faq: "FAQ"
     blog: "Blog"

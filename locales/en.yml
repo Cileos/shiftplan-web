@@ -4,7 +4,7 @@ en:
   navigation:
     features: "Features"
     prices: "Prices"
-    testing: "Free Trial"
+    testing: "Register for free"
     login: "Log in"
 
   speechbubbles:
@@ -78,10 +78,14 @@ en:
       unstaffed shift."
 
     how_much_title: "How much is Clockwork?"
-    how_much_content: "At the moment Clockwork is available in a preview version.
-    This means that you can use the software for free. When we start to charge
-    our customers for using Clockwork we will let you know and you will have
-    enough time to decide if you want to continue using Clockwork."
+    # how_much_content: "At the moment Clockwork is available in a preview version.
+    # This means that you can use the software for free. When we start to charge
+    # our customers for using Clockwork we will let you know and you will have
+    # enough time to decide if you want to continue using Clockwork."
+    how_much_content: "You can use Clockwork.io for free. Why don't you give it
+    a try and register today? We are looking forward to feedback from our users.
+    This is how we continuously improve our website to satisfy the needs of
+    workforce managers."
     how_much_solar: "Up to 19 employees:"
     how_much_solar_price: "€29"
     how_much_steam: "Up to 49 employees:"
@@ -91,7 +95,7 @@ en:
     how_much_free_preview: "This is a free preview of Clockwork!"
     how_much_hint_payment_method_yearly: "per month, paid annually"
     how_much_hint_payment_method_monthly: "€%{amount} month-by-month"
-    convinced: "Are you curious about Clockwork and wanna give it a try?"
+    convinced: "Curious? Wanna give it a try?"
     need_a_bigger_plan: "Need a bigger plan?"
     need_a_bigger_plan_mail_subject: "I+need+a+bigger+plan"
     contact_us: "Contact us"
@@ -115,7 +119,7 @@ en:
     social: "Social"
     features: "Features"
     prices: "Prices"
-    testing: "Free Trial"
+    testing: "Register for free"
     login: "Log in"
     faq: "FAQ"
     blog: "Blog"
