@@ -6,7 +6,7 @@ namespace :landing do
 
   desc 'Upload landing page to mett'
   task :upload => :build do
-    system 'rsync -avz ./build/ application@mett.clockwork.io:projects/static_landing_page/current/'
+    system 'rsync -avz ./build/ niklas@lanpartei.de:/home/www/clockwork-landing/pages/'
   end
 
   desc 'clean up build'
